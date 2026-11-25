@@ -9,15 +9,15 @@ export default defineConfig({
   retries: 0,
   reporter: "list",
   use: {
-    baseURL: process.env.E2E_BASE_URL ?? "http://127.0.0.1:3000",
+    baseURL: process.env.E2E_BASE_URL ?? "http://localhost:3000",
     trace: "retain-on-failure",
   },
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
   webServer: process.env.E2E_BASE_URL
     ? undefined
     : {
-        command: "npm run dev -- --hostname 127.0.0.1",
-        url: "http://127.0.0.1:3000",
+        command: "npx next dev -p 3000",
+        url: "http://localhost:3000",
         reuseExistingServer: false,
         timeout: 120_000,
       },
