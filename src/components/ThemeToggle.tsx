@@ -16,8 +16,26 @@ export function ThemeToggle() {
     }
   }
 
+  const action = midnight ? "Switch to light mode" : "Switch to dark mode";
+
   return (
-    <button className="btn secondary" type="button" onClick={toggle} aria-pressed={midnight}>
+    <button
+      className="btn secondary"
+      type="button"
+      onClick={toggle}
+      aria-label={action}
+      title={action}
+      aria-pressed={midnight}
+    >
+      <span className="theme-icons" aria-hidden="true">
+        <svg className="theme-icon moon" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4">
+          <path d="M13.2 9.6A5.6 5.6 0 0 1 6.4 2.8 5.8 5.8 0 1 0 13.2 9.6Z" />
+        </svg>
+        <svg className="theme-icon sun" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4">
+          <circle cx="8" cy="8" r="3" />
+          <path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3.1 3.1l1.1 1.1M11.8 11.8l1.1 1.1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1" />
+        </svg>
+      </span>
       {midnight ? "Day reading" : "Night reading"}
     </button>
   );

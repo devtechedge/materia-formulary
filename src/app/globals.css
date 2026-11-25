@@ -12,6 +12,7 @@
 }
 
 :root {
+  color-scheme: light;
   --bg: #f3f0e7;
   --surface: #faf8f2;
   --ink: #13202e;
@@ -23,6 +24,7 @@
 }
 
 [data-theme="midnight"] {
+  color-scheme: dark;
   --bg: #101a24;
   --surface: #152230;
   --ink: #e9e4d8;
@@ -67,6 +69,80 @@ select {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+.table-wrap,
+.panel,
+.compare-grid {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.table-wrap:hover,
+.table-wrap:focus-within,
+.panel:hover,
+.panel:focus-within,
+.compare-grid:hover,
+.compare-grid:focus-within {
+  scrollbar-color: var(--line) transparent;
+}
+
+:where(.table-wrap, .panel, .compare-grid)::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+:where(.table-wrap, .panel, .compare-grid)::-webkit-scrollbar-button {
+  display: none;
+}
+
+:where(.table-wrap, .panel, .compare-grid)::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+}
+
+:where(.table-wrap, .panel, .compare-grid):hover::-webkit-scrollbar-thumb,
+:where(.table-wrap, .panel, .compare-grid):focus-within::-webkit-scrollbar-thumb {
+  background: var(--line);
+}
+
+.theme-icons {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 0.35rem;
+  vertical-align: -3px;
+}
+
+.theme-icon {
+  position: absolute;
+  inset: 0;
+  transition: opacity 300ms ease, transform 300ms ease, filter 300ms ease;
+}
+
+.theme-icon.moon {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+}
+
+.theme-icon.sun {
+  opacity: 0;
+  transform: scale(0.25);
+  filter: blur(4px);
+}
+
+[data-theme="midnight"] .theme-icon.moon {
+  opacity: 0;
+  transform: scale(0.25);
+  filter: blur(4px);
+}
+
+[data-theme="midnight"] .theme-icon.sun {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
 }
 
 .shell {
