@@ -1,34 +1,61 @@
 # MATERIA
 
-An independent, evidence-graded clinical formulary and supplement stack audit workbench.
+An independent evidence-graded formulary for holistic supplements, with a deterministic stack audit and a printable Protocol Card.
 
-MATERIA is a reference desk for holistic healthcare supplements. It lists 130 real products from public NOW Foods and iHerb catalog listings, grades the evidence for each stated use, compares common forms, and checks a proposed stack against 30 deterministic interaction rules. Nothing is for sale and no health data is collected.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?logo=vercel)](https://materia-formulary.vercel.app)
+[![CI](https://github.com/devtechedge/materia-formulary/actions/workflows/ci.yml/badge.svg)](https://github.com/devtechedge/materia-formulary/actions/workflows/ci.yml)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Live: https://materia-formulary.vercel.app (demo mode, checked snapshot dated 26 November 2026).
+---
 
-## What it does
+## Live Demo
 
-- Browse 130 monographs with category, evidence grade and dose filters.
-- Read a monograph with forms, dose range, timing, cautions, sources and provenance URL.
-- Compare forms such as zinc picolinate versus zinc oxide, liposomal glutathione versus NAC, and triglyceride fish oil versus flax oil.
-- Draft a time-phased Protocol Card with cofactors and cycling notes.
-- Audit a stack with 30 deterministic rules, each carrying severity, evidence grade, citation and a suggested action.
-- Export the audit as Markdown or print a one page Protocol Card.
-- Keep an optional outcome journal in local browser state only. No score leaves the tab.
+**https://materia-formulary.vercel.app**
 
-The six priority ingredients are collagen hydrolysate, NAC, triple strength fish oil, zinc picolinate, liposomal glutathione and GHK-Cu.
+> **Status:** Public demo data from a checked snapshot dated 26 November 2026. The 130 monographs and 30 rules are static; no account or database is required. Nothing is fetched at runtime. The app is educational reference only and does not diagnose or prescribe.
 
-## Honest scope
+---
 
-This is an educational reference. It does not diagnose, prescribe, or replace a qualified professional. A rule firing is a prompt to review with a clinician, not a clinical conclusion. Correlation is not causation. The public deployment runs in demo mode with the checked snapshot dated 26 November 2026 unless a database is connected.
+## Screenshots
 
-## Stack
+| Formulary desk | Stack audit |
+|----------------|-------------|
+| ![Formulary desk](docs/screenshots/01-formulary-desk.png) | ![Stack audit](docs/screenshots/02-stack-audit.png) |
 
-Next.js 16 App Router, React 19, strict TypeScript 5.9, Tailwind CSS 4, Drizzle ORM with Neon Postgres and a deterministic in-memory demo path, Zod 4, Vitest, Playwright and axe. Three OFL fonts are self-hosted: Fraunces, IBM Plex Sans and IBM Plex Mono. No runtime request leaves the product.
+| Monograph |
+|-----------|
+| ![Monograph](docs/screenshots/03-monograph.png) |
 
-Every table carries an indexed `account_ref` set from an httpOnly cookie and filtered on all reads and writes. A visitor without a cookie receives the demo dataset and cannot see another account's rows.
+---
 
-## Run locally
+## Features
+
+- Browse 130 real monographs with category filters and an A to D evidence grade on every row.
+- Compare forms: zinc picolinate versus zinc oxide, liposomal glutathione versus NAC, triglyceride fish oil versus flax oil, and four more pairs.
+- Audit a stack with 30 deterministic rules. Every finding carries severity, evidence grade, citation and a suggested action. The same stack always produces the same output.
+- Sum elemental exposure across a stack and flag stated upper limits.
+- Compile a time-phased Protocol Card with cofactors and cycling notes, then export Markdown or print one page.
+- Keep an optional outcome journal in local browser state. Those scores never leave the tab.
+- Self-hosted Fraunces, IBM Plex Sans and IBM Plex Mono. Day and night reading themes.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | Next.js 16 App Router, React 19, Tailwind CSS 4 |
+| Language | Strict TypeScript 5.9, Zod 4 |
+| Data | Drizzle ORM with Neon Postgres path; deterministic demo dataset on Vercel |
+| Tests | Vitest, Playwright with axe |
+| Hosting | Vercel, team devtechedge1 |
+| CI | GitHub Actions on Node 22 |
+
+---
+
+## Quick Start
 
 ```bash
 npm install
@@ -47,24 +74,10 @@ npm run test:e2e
 npm run build
 ```
 
-## Regenerate the data
+The dataset is generated from checked catalog research and the three fonts are self-hosted. Regeneration steps are documented in the repository.
 
-The dataset is generated from the checked source research, not hand edited.
+---
 
-```bash
-python scripts/generate-data.py
-python scripts/fetch-fonts.py
-```
+## License
 
-`scripts/generate-data.py` reads `supplement-research.md` at the repository root. Keep that file beside the checkout when regenerating.
-
-## Documentation
-
-- `docs/BUILD_BRIEF.md`: the original 10,094 character build brief.
-- `docs/METHODOLOGY.md`: rubric, rule design and limitations.
-- `docs/DATA_PROVENANCE.md`: where the dataset came from and how it is bundled.
-- `docs/LICENSES.md`: per asset licence record.
-
-## Licence
-
-MIT. See `LICENSE`.
+MIT. See [LICENSE](LICENSE).
