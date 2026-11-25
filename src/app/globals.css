@@ -4,8 +4,8 @@
   --color-bone: #f3f0e7;
   --color-paper: #faf8f2;
   --color-ink: #13202e;
-  --color-vermilion: #c4482f;
-  --color-sage: #7f9c8b;
+  --color-vermilion: #b03d28;
+  --color-sage: #4f6b58;
   --font-display: "Fraunces", Georgia, serif;
   --font-body: "IBM Plex Sans", Arial, sans-serif;
   --font-mono: "IBM Plex Mono", Consolas, monospace;
@@ -17,8 +17,8 @@
   --ink: #13202e;
   --muted: #5a6571;
   --line: #d6d2c5;
-  --accent: #c4482f;
-  --sage: #7f9c8b;
+  --accent: #b03d28;
+  --sage: #4f6b58;
   --shadow: rgba(19, 32, 46, 0.08);
 }
 
