@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     description: "Compare forms, grade the evidence, and audit a supplement stack with deterministic rules.",
     type: "website",
   },
+  icons: { icon: "/favicon.svg" },
 };
 
 const themeScript = `try{var t=localStorage.getItem('materia-theme');if(t==='midnight'){document.documentElement.dataset.theme='midnight'}}catch(e){}`;
