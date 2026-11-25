@@ -4,6 +4,8 @@ An independent, evidence-graded clinical formulary and supplement stack audit wo
 
 MATERIA is a reference desk for holistic healthcare supplements. It lists 130 real products from public NOW Foods and iHerb catalog listings, grades the evidence for each stated use, compares common forms, and checks a proposed stack against 30 deterministic interaction rules. Nothing is for sale and no health data is collected.
 
+Live: https://materia-formulary.vercel.app (demo mode, checked snapshot dated 26 November 2026).
+
 ## What it does
 
 - Browse 130 monographs with category, evidence grade and dose filters.
