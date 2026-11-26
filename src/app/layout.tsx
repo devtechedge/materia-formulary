@@ -6,6 +6,9 @@ import "./fonts.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://materia-formulary.vercel.app"),
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true },
   title: {
     default: "MATERIA, evidence-graded supplement formulary",
     template: "%s / MATERIA",
@@ -16,6 +19,7 @@ export const metadata: Metadata = {
     title: "MATERIA, evidence-graded supplement formulary",
     description: "Compare forms, grade the evidence, and audit a supplement stack with deterministic rules.",
     type: "website",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "MATERIA formulary card" }],
   },
   icons: { icon: "/favicon.svg" },
 };
