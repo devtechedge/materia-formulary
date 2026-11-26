@@ -55,6 +55,31 @@ test("a sixty item audit payload is accepted", async ({ request }) => {
   expect(body.itemCount).toBe(60);
 });
 
+test("two account cookies isolate saved stacks", async ({ request }) => {
+  const alpha = "materia_account=aaaaaaaaaaaaaaaaaaaaaaaa";
+  const beta = "materia_account=bbbbbbbbbbbbbbbbbbbbbbbb";
+  const item = { slug: "nac", form: "tablets", doseMg: 600, servings: 1, timing: "empty_stomach" };
+
+  await request.post("/api/stacks", {
+    headers: { cookie: alpha },
+    data: { id: "shared-id", name: "Alpha stack", items: [item] },
+  });
+  await request.post("/api/stacks", {
+    headers: { cookie: beta },
+    data: { id: "shared-id", name: "Beta stack", items: [item] },
+  });
+
+  const alphaBody = await (await request.get("/api/stacks", { headers: { cookie: alpha } })).json();
+  const betaBody = await (await request.get("/api/stacks", { headers: { cookie: beta } })).json();
+
+  expect(alphaBody.accountRef).toBe("aaaaaaaaaaaaaaaaaaaaaaaa");
+  expect(betaBody.accountRef).toBe("bbbbbbbbbbbbbbbbbbbbbbbb");
+  expect(alphaBody.stacks.find((stack: { name: string }) => stack.name === "Alpha stack")).toBeDefined();
+  expect(alphaBody.stacks.find((stack: { name: string }) => stack.name === "Beta stack")).toBeUndefined();
+  expect(betaBody.stacks.find((stack: { name: string }) => stack.name === "Beta stack")).toBeDefined();
+  expect(betaBody.stacks.find((stack: { name: string }) => stack.name === "Alpha stack")).toBeUndefined();
+});
+
 test("an unknown form falls back without crashing", async ({ request }) => {
   const payload = {
     id: "s1",
