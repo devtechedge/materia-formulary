@@ -57,7 +57,8 @@ export default function MethodologyPage() {
           product level evidence is absent. Dose ranges are typical adult ranges from labels and
           human studies, not personal recommendations. The outcome journal stores local scores
           only and cannot establish causation. Nothing here diagnoses, prescribes or replaces a
-          qualified professional.
+          qualified professional. The bundled dataset is released under MIT. Vendor pages are
+          factual references, not endorsements.
         </p>
       </div>
     </section>
