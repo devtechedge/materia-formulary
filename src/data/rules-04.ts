@@ -37,7 +37,7 @@ export const rules04: InteractionRule[] = [
   {
     id: "R022",
     severity: "minor",
-    slugs: ["co-enzyme-b-complex"],
+    slugs: ["niacin", "co-enzyme-b-complex"],
     categories: [],
     title: "Niacin flush and dose timing",
     explanation: "Immediate release niacin can cause flushing. Splitting doses or using a flush free form changes tolerability, not necessarily the evidence base.",

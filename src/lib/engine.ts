@@ -11,7 +11,7 @@ const SEVERITY_RANK: Record<Severity, number> = {
 };
 
 const SINGLE_ITEM_RULES = new Set([
-  "R001", "R005", "R006", "R011", "R012", "R013",
+  "R005", "R006", "R011", "R012", "R013",
   "R019", "R021", "R022", "R023", "R024", "R027",
 ]);
 

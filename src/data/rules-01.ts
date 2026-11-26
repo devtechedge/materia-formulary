@@ -4,7 +4,7 @@ export const rules01: InteractionRule[] = [
   {
     id: "R001",
     severity: "major",
-    slugs: ["zinc-picolinate", "zinc"],
+    slugs: ["zinc-picolinate", "zinc", "copper-glycinate"],
     categories: [],
     title: "Long-term high-dose zinc can deplete copper",
     explanation: "Sustained zinc intake above the usual adult range reduces copper absorption. A stack that includes zinc without a copper source should be reviewed for duration and dose.",
@@ -59,7 +59,7 @@ export const rules01: InteractionRule[] = [
   {
     id: "R006",
     severity: "critical",
-    slugs: ["vitamin-d3-and-k2", "vitamin-d3-k2-as-mk-7", "liquid-d3-and-mk-7"],
+    slugs: ["vitamin-d3-and-k2", "vitamin-d3-k2-as-mk-7", "liquid-d3-and-mk-7", "mk-7-vitamin-k-2"],
     categories: [],
     title: "Vitamin K conflicts with warfarin therapy",
     explanation: "Vitamin K directly opposes the action of vitamin K antagonist anticoagulants. Intake must be kept consistent and clinician-guided.",
