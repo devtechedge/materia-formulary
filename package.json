@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "typecheck:tests": "tsc --noEmit -p tsconfig.test.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
@@ -36,6 +37,6 @@
     "vitest": "^3.2.0"
   },
   "engines": {
-    "node": ">=20.9.0"
+    "node": ">=22"
   }
 }
