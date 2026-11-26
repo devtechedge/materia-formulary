@@ -29,20 +29,35 @@ export function AuditReportView({ report, stack }: { report: AuditReport; stack:
       <div className="section-head">
         <h2>Stack Audit</h2>
         <span className="count">
-          {report.findings.length} findings / {counts.critical} critical, {counts.major} major,{" "}
-          {counts.moderate} moderate, {counts.minor} minor
+          {report.itemCount} items / {report.findings.length} findings / snapshot 26 Nov 2026
         </span>
       </div>
 
-      <div className="notices">
-        {report.findings.length === 0 ? (
-          <p className="notice">No deterministic findings were triggered for this stack.</p>
-        ) : (
-          report.findings.map((finding, index) => (
-            <FindingRow key={`${finding.ruleId}-${index}`} finding={finding} index={index} />
-          ))
-        )}
-      </div>
+      {report.itemCount === 0 ? (
+        <p className="notice">
+          Your stack is empty. Add an ingredient or pick a goal to compile a protocol.
+        </p>
+      ) : (
+        <>
+          <p className="count">
+            {counts.critical} critical, {counts.major} major, {counts.moderate} moderate,{" "}
+            {counts.minor} minor
+          </p>
+          <div className="notices">
+            {report.findings.length === 0 ? (
+              <p className="notice">No deterministic findings were triggered for this stack.</p>
+            ) : (
+              report.findings.map((finding, index) => (
+                <FindingRow key={`${finding.ruleId}-${index}`} finding={finding} index={index} />
+              ))
+            )}
+          </div>
+          <p className="notice">
+            Next: take this card to a qualified professional and review any critical or major
+            finding before changing a routine.
+          </p>
+        </>
+      )}
 
       <div className="table-wrap" style={{ margin: "1.25rem 0" }}>
         <table>

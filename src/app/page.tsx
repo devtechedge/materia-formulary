@@ -37,9 +37,10 @@ export default function HomePage() {
           <p className="eyebrow">Independent clinical formulary</p>
           <h1>What you take, examined properly.</h1>
           <p className="lede">
-            MATERIA is a reference desk for holistic supplements. It lists {monographs.length} real
-            products, grades the evidence for each stated use, and checks a proposed stack against{" "}
-            {rules.length} deterministic rules. Nothing here is for sale.
+            MATERIA is a reference desk for holistic supplements. It sells nothing. It lists{" "}
+            {monographs.length} real products from checked public sources, grades the evidence for
+            each stated use, and checks a proposed stack against {rules.length} deterministic rules.
+            Snapshot dated 26 November 2026. <Link href="/methodology">Method and sources</Link>.
           </p>
           <p style={{ marginTop: "1.25rem" }}>
             <ModeBadge mode={mode} /> <span className="count">No account needed to browse, draft or audit.</span>

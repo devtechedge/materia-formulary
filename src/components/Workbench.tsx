@@ -21,6 +21,7 @@ const SAMPLE: StackItem[] = [
 
 export function Workbench() {
   const [items, setItems] = useState<StackItem[]>(SAMPLE);
+  const [usedGoals, setUsedGoals] = useState<string[]>([]);
   const report = useMemo(() => auditStack(items), [items]);
   const goals = useMemo(() => suggestedGoals().slice(0, 12), []);
   const stack: Stack = { id: "sample-session", name: "Sample stack", items };
@@ -30,6 +31,7 @@ export function Workbench() {
       (monograph) => monograph.goals.includes(goal) && !items.some((item) => item.slug === monograph.slug),
     );
     if (!match) return;
+    setUsedGoals([...usedGoals, goal]);
     setItems([
       ...items,
       {
@@ -48,7 +50,7 @@ export function Workbench() {
         <StackEditor items={items} onChange={setItems} />
         <h2>Goal-first draft</h2>
         <p className="count">Add the first matching monograph for a goal.</p>
-        <GoalChips goals={goals} onPick={addGoal} />
+        <GoalChips goals={goals} onPick={addGoal} used={usedGoals} />
       </section>
       <section className="panel">
         <AuditReportView report={report} stack={stack} />
