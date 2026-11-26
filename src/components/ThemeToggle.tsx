@@ -16,15 +16,17 @@ export function ThemeToggle() {
     }
   }
 
-  const action = midnight ? "Switch to light mode" : "Switch to dark mode";
+  const visible = midnight ? "Day reading" : "Night reading";
+  const action = midnight ? "switch to light mode" : "switch to dark mode";
+  const accessibleName = `${visible}: ${action}`;
 
   return (
     <button
       className="btn secondary"
       type="button"
       onClick={toggle}
-      aria-label={action}
-      title={action}
+      aria-label={accessibleName}
+      title={accessibleName}
       aria-pressed={midnight}
     >
       <span className="theme-icons" aria-hidden="true">
@@ -36,7 +38,7 @@ export function ThemeToggle() {
           <path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3.1 3.1l1.1 1.1M11.8 11.8l1.1 1.1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1" />
         </svg>
       </span>
-      {midnight ? "Day reading" : "Night reading"}
+      {visible}
     </button>
   );
 }
