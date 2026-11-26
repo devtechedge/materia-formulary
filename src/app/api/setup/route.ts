@@ -25,9 +25,14 @@ const STATEMENTS = [
   `create index if not exists review_log_account_ref_idx on review_log (account_ref)`,
 ];
 
-export async function GET() {
+export async function GET(request: Request) {
   if (!databaseEnabled()) {
     return NextResponse.json({ mode: "demo", applied: 0, message: "No DATABASE_URL. Using deterministic demo data." });
+  }
+  const expected = process.env.SETUP_TOKEN;
+  const supplied = request.headers.get("x-setup-token");
+  if (!expected || supplied !== expected) {
+    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }
   for (const statement of STATEMENTS) {
     await rawQuery(statement);
