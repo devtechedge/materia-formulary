@@ -1,117 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 27 to 39. Do not hand edit.
+// Entries 29 to 42. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch03: Monograph[] = [
-  {
-    slug: "kelp",
-    name: "Kelp",
-    aliases: [
-      "NOW Foods, Kelp, 325 mcg iodine, 250 veg capsules",
-      "Kelp",
-    ],
-    category: "minerals",
-    mechanism: "Iodine is essential for thyroid hormone synthesis; kelp iodine content varies, so evidence is stronger for defined iodine doses than for whole kelp",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 150.0, high: 325.0, unit: "mcg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "D",
-    summary: "iodine is essential for thyroid hormone synthesis; kelp iodine content varies, so evidence is stronger for defined iodine doses than for whole kelp",
-    cautions: [
-      "excess iodine can trigger hypo- or hyperthyroidism",
-      "caution with thyroid medication and amiodarone",
-    ],
-    interactionRuleIds: [
-      "R010",
-    ],
-    citations: [
-      {
-        label: "PubMed search: Kelp",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=kelp",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-kelp-325-mcg-250-veg-capsules/15892",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-kelp-325-mcg-250-veg-capsules/15892",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "nutrient adequacy",
-      "traditional support",
-    ],
-  },
-  {
-    slug: "thyroid-energy",
-    name: "Thyroid Energy",
-    aliases: [
-      "NOW Foods, Thyroid Energy, 90 veg capsules",
-      "Thyroid Energy",
-    ],
-    category: "minerals",
-    mechanism: "Ingredient-level evidence for iodine and tyrosine adequacy; herbal blend outcome evidence in humans is limited",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
-    timing: "morning with food",
-    evidenceGrade: "B",
-    summary: "ingredient-level evidence for iodine and tyrosine adequacy; herbal blend outcome evidence in humans is limited",
-    cautions: [
-      "contains iodine and tyrosine",
-      "caution with thyroid drugs, amiodarone and iodine sensitivity",
-    ],
-    interactionRuleIds: [
-      "R010",
-    ],
-    citations: [
-      {
-        label: "PubMed search: Thyroid Energy",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=thyroid+energy",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-thyroid-energy-90-veg-capsules/843",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-thyroid-energy-90-veg-capsules/843",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "nutrient adequacy",
-      "traditional support",
-    ],
-  },
   {
     slug: "calcium-and-magnesium",
     name: "Calcium & Magnesium",
@@ -124,20 +16,20 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -188,8 +80,8 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -234,20 +126,20 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -291,14 +183,14 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
     ],
@@ -343,14 +235,14 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
     ],
@@ -394,20 +286,20 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
     ],
@@ -456,20 +348,20 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
     ],
@@ -515,20 +407,20 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -572,20 +464,20 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "gummies",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -632,8 +524,8 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -678,14 +570,14 @@ export const batch03: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -715,6 +607,164 @@ export const batch03: Monograph[] = [
     reviewer: "DM",
     goals: [
       "antioxidant defence",
+    ],
+  },
+  {
+    slug: "l-phenylalanine",
+    name: "L-Phenylalanine",
+    aliases: [
+      "NOW Foods, L-Phenylalanine, 500 mg, 120 veg capsules",
+      "L-Phenylalanine",
+    ],
+    category: "amino acids",
+    mechanism: "Human evidence for mood is weak; phenylalanine is an essential amino acid and precursor to dopamine and norepinephrine",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "evening",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "evening",
+      },
+    ],
+    doseRange: { low: 500.0, high: 1000.0, unit: "mg", upperLimit: undefined },
+    timing: "morning or with meals, not late evening",
+    evidenceGrade: "B",
+    summary: "human evidence for mood is weak; phenylalanine is an essential amino acid and precursor to dopamine and norepinephrine",
+    cautions: [
+      "contraindicated in phenylketonuria",
+      "caution with MAO inhibitors and bipolar disorder (unverified interaction detail)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: L-Phenylalanine",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=l+phenylalanine",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-l-phenylalanine-500-mg-120-veg-capsules/736",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-l-phenylalanine-500-mg-120-veg-capsules/736",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "antioxidant defence",
+    ],
+  },
+  {
+    slug: "5-htp",
+    name: "5-HTP",
+    aliases: [
+      "NOW Foods, 5-HTP, 100 mg, 120 veg capsules",
+      "5-HTP",
+    ],
+    category: "amino acids",
+    mechanism: "Small human trials suggest possible mood and sleep benefits, but evidence quality is low and inconsistent",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "bedtime",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "bedtime",
+      },
+    ],
+    doseRange: { low: 100.0, high: 300.0, unit: "mg", upperLimit: undefined },
+    timing: "evening for sleep; with meals for mood use",
+    evidenceGrade: "B",
+    summary: "small human trials suggest possible mood and sleep benefits, but evidence quality is low and inconsistent",
+    cautions: [
+      "do not combine with SSRIs, SNRIs, MAOIs or tramadol due to serotonin syndrome risk",
+      "caution before surgery",
+    ],
+    interactionRuleIds: [
+      "R007",
+      "R008",
+    ],
+    citations: [
+      {
+        label: "PubMed search: 5-HTP",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=5+htp",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-5-htp-100-mg-120-veg-capsules/306",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-5-htp-100-mg-120-veg-capsules/306",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "antioxidant defence",
+      "sleep quality",
+    ],
+  },
+  {
+    slug: "taurine",
+    name: "Taurine",
+    aliases: [
+      "NOW Foods, Taurine, 1,000 mg, 100 veg capsules",
+      "Taurine",
+    ],
+    category: "amino acids",
+    mechanism: "Human evidence for bile acid conjugation and some cardiovascular markers; exercise-performance data are mixed",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1.0, high: 3.0, unit: "g", upperLimit: undefined },
+    timing: "any time with food",
+    evidenceGrade: "B",
+    summary: "human evidence for bile acid conjugation and some cardiovascular markers; exercise-performance data are mixed",
+    cautions: [
+      "no established drug interaction",
+      "caution in severe liver disease (unverified)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Taurine",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=taurine",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/c/now-foods/amino-acids",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/c/now-foods/amino-acids",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "antioxidant defence",
+      "cardiovascular support",
     ],
   },
 ];

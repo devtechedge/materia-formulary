@@ -1,309 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 79 to 91. Do not hand edit.
+// Entries 85 to 98. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch07: Monograph[] = [
-  {
-    slug: "inositol-powder",
-    name: "Inositol Powder",
-    aliases: [
-      "NOW Foods, Inositol Powder, 4 oz",
-      "Inositol Powder",
-    ],
-    category: "metabolic",
-    mechanism: "Human evidence for myo-inositol in gestational diabetes prevention and some mood outcomes, evidence moderate and dose-dependent",
-    forms: [
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 2.0, high: 4.0, unit: "g", upperLimit: undefined },
-    timing: "divided doses with meals",
-    evidenceGrade: "B",
-    summary: "human evidence for myo-inositol in gestational diabetes prevention and some mood outcomes, evidence moderate and dose-dependent",
-    cautions: [
-      "generally well tolerated at 2-4 g",
-      "high doses can cause nausea (unverified interaction with diabetes drugs)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Inositol Powder",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=inositol+powder",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-inositol-powder-4-oz-113-g/678",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-inositol-powder-4-oz-113-g/678",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "metabolic health",
-    ],
-  },
-  {
-    slug: "candida-support",
-    name: "Candida Support",
-    aliases: [
-      "NOW Foods, Candida Support, 90 veg capsules",
-      "Candida Support",
-    ],
-    category: "gut/digestive",
-    mechanism: "Ingredient-level traditional use for gut microbial balance, limited human outcome evidence",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "ingredient-level traditional use for gut microbial balance, limited human outcome evidence",
-    cautions: [
-      "contains caprylic acid, oregano oil, black walnut and pau d'arco",
-      "caution in liver disease and with anticoagulants (unverified)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Candida Support",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=candida+support",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-candida-support-90-veg-capsules/462",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-candida-support-90-veg-capsules/462",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "digestive comfort",
-      "traditional support",
-    ],
-  },
-  {
-    slug: "glucosamine-and-chondroitin-with-msm",
-    name: "Glucosamine & Chondroitin with MSM",
-    aliases: [
-      "NOW Foods, Glucosamine & Chondroitin with MSM, 180 capsules",
-      "Glucosamine & Chondroitin with MSM",
-    ],
-    category: "joint/bone",
-    mechanism: "Human osteoarthritis trials show mixed results, with some pain and function benefit for glucosamine sulfate; combination products less consistent",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 800.0, high: 1200.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "human osteoarthritis trials show mixed results, with some pain and function benefit for glucosamine sulfate; combination products less consistent",
-    cautions: [
-      "shellfish allergy for glucosamine sourced from shells",
-      "caution with warfarin and with diabetes drugs (unverified interaction)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Glucosamine & Chondroitin with MSM",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=glucosamine+and+chondroitin+with+msm",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-glucosamine-chondroitin-with-msm-180-capsules/581",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-glucosamine-chondroitin-with-msm-180-capsules/581",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "joint repair",
-    ],
-  },
-  {
-    slug: "uc-ii-joint-health-with-undenatured-type-ii-collagen",
-    name: "UC-II Joint Health with Undenatured Type II Collagen",
-    aliases: [
-      "NOW Foods, UC-II Joint Health with Undenatured Type II Collagen, 120 capsules",
-      "UC-II Joint Health with Undenatured Type II Collagen",
-    ],
-    category: "joint/bone",
-    mechanism: "Small human RCTs support 40 mg/day UC-II for joint comfort and flexibility",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "bedtime",
-      },
-    ],
-    doseRange: { low: 40.0, high: 40.0, unit: "mg", upperLimit: undefined },
-    timing: "on an empty stomach at bedtime per common label practice (unverified for this product)",
-    evidenceGrade: "B",
-    summary: "small human RCTs support 40 mg/day UC-II for joint comfort and flexibility",
-    cautions: [
-      "chicken cartilage source",
-      "no major drug interaction established",
-    ],
-    interactionRuleIds: [
-      "R018",
-    ],
-    citations: [
-      {
-        label: "PubMed search: UC-II Joint Health with Undenatured Type II Collagen",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=uc+ii+joint+health+with+undenatured+type+ii+collagen",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "joint repair",
-    ],
-  },
-  {
-    slug: "advanced-uc-ii-joint-relief",
-    name: "Advanced UC-II Joint Relief",
-    aliases: [
-      "NOW Foods, Advanced UC-II Joint Relief, 60 capsules",
-      "Advanced UC-II Joint Relief",
-    ],
-    category: "joint/bone",
-    mechanism: "UC-II human data support joint comfort; added ingredients have their own limited evidence",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "bedtime",
-      },
-    ],
-    doseRange: { low: 40.0, high: 40.0, unit: "mg", upperLimit: undefined },
-    timing: "bedtime or empty stomach",
-    evidenceGrade: "B",
-    summary: "UC-II human data support joint comfort; added ingredients have their own limited evidence",
-    cautions: [
-      "same as UC-II",
-      "avoid stacking multiple joint formulas",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Advanced UC-II Joint Relief",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=advanced+uc+ii+joint+relief",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-advanced-uc-ii-joint-relief-60-capsules/84735",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-advanced-uc-ii-joint-relief-60-capsules/84735",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "joint repair",
-    ],
-  },
-  {
-    slug: "biocell-collagen-hydrolyzed-type-ii",
-    name: "BioCell Collagen Hydrolyzed Type II",
-    aliases: [
-      "NOW Foods, BioCell Collagen Hydrolyzed Type II, 120 capsules",
-      "BioCell Collagen Hydrolyzed Type II",
-    ],
-    category: "joint/bone",
-    mechanism: "Proprietary hydrolyzed type II collagen has small human trials for joint comfort and skin hydration",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1.0, high: 2.0, unit: "capsules", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "proprietary hydrolyzed type II collagen has small human trials for joint comfort and skin hydration",
-    cautions: [
-      "chicken sternal cartilage source",
-      "no established major interaction",
-    ],
-    interactionRuleIds: [
-      "R018",
-    ],
-    citations: [
-      {
-        label: "PubMed search: BioCell Collagen Hydrolyzed Type II",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=biocell+collagen+hydrolyzed+type+ii",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-biocell-collagen-hydrolyzed-type-ii-120-capsules/85315",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-biocell-collagen-hydrolyzed-type-ii-120-capsules/85315",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "joint repair",
-      "skin elasticity",
-    ],
-  },
   {
     slug: "collagen-joint-support-powder",
     name: "Collagen Joint Support Powder",
@@ -316,8 +16,8 @@ export const batch07: Monograph[] = [
     forms: [
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -363,8 +63,8 @@ export const batch07: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -408,14 +108,14 @@ export const batch07: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -460,8 +160,8 @@ export const batch07: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -505,8 +205,8 @@ export const batch07: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -549,26 +249,26 @@ export const batch07: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "gummies",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
     ],
@@ -615,8 +315,8 @@ export const batch07: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
     ],
@@ -646,6 +346,346 @@ export const batch07: Monograph[] = [
     reviewer: "DM",
     goals: [
       "sleep quality",
+    ],
+  },
+  {
+    slug: "sleep",
+    name: "Sleep",
+    aliases: [
+      "NOW Foods, Sleep, 90 veg capsules",
+      "Sleep",
+    ],
+    category: "sleep/mood",
+    mechanism: "Valerian, 5-HTP and GABA blend; valerian human evidence is weak and inconsistent",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "bedtime",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "30-60 minutes before sleep",
+    evidenceGrade: "B",
+    summary: "valerian, 5-HTP and GABA blend; valerian human evidence is weak and inconsistent",
+    cautions: [
+      "5-HTP serotonin-interaction caution with SSRI/SNRI/MAOI drugs",
+      "avoid alcohol and driving after use",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Sleep",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=sleep",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-sleep-90-veg-capsules/39374",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-sleep-90-veg-capsules/39374",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "sleep quality",
+    ],
+  },
+  {
+    slug: "5-htp-with-glycine-taurine-and-inositol",
+    name: "5-HTP with Glycine, Taurine & Inositol",
+    aliases: [
+      "NOW Foods, 5-HTP with Glycine, Taurine & Inositol, 60 veg capsules",
+      "5-HTP with Glycine, Taurine & Inositol",
+    ],
+    category: "sleep/mood",
+    mechanism: "Glycine has small human sleep data; 5-HTP evidence is low quality",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "bedtime",
+      },
+    ],
+    doseRange: { low: 1.0, high: 2.0, unit: "capsules", upperLimit: undefined },
+    timing: "before bed",
+    evidenceGrade: "B",
+    summary: "glycine has small human sleep data; 5-HTP evidence is low quality",
+    cautions: [
+      "same serotonin-syndrome caution with serotonergic drugs",
+    ],
+    interactionRuleIds: [
+      "R007",
+      "R008",
+    ],
+    citations: [
+      {
+        label: "PubMed search: 5-HTP with Glycine, Taurine & Inositol",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=5+htp+with+glycine+taurine+and+inositol",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-5-htp-with-glycine-taurine-inositol-60-veg-capsules/593",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-5-htp-with-glycine-taurine-inositol-60-veg-capsules/593",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "sleep quality",
+    ],
+  },
+  {
+    slug: "berberine-hcl",
+    name: "Berberine HCl",
+    aliases: [
+      "NOW Foods, Berberine HCl, 500 mg, 90 veg capsules",
+      "Berberine HCl",
+    ],
+    category: "metabolic",
+    mechanism: "Human meta-analyses show modest fasting glucose and lipid improvements, but trials vary in quality",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 500.0, high: 500.0, unit: "mg", upperLimit: undefined },
+    timing: "with meals to reduce GI upset",
+    evidenceGrade: "B",
+    summary: "human meta-analyses show modest fasting glucose and lipid improvements, but trials vary in quality",
+    cautions: [
+      "can inhibit CYP3A4/2D6 and affect many drugs",
+      "caution with diabetes medications due to hypoglycemia",
+      "avoid in pregnancy",
+    ],
+    interactionRuleIds: [
+      "R009",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Berberine HCl",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=berberine+hcl",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-berberine-hcl-500-mg-90-veg-capsules/148551",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-berberine-hcl-500-mg-90-veg-capsules/148551",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "metabolic health",
+      "cardiovascular support",
+    ],
+  },
+  {
+    slug: "chromium-picolinate",
+    name: "Chromium Picolinate",
+    aliases: [
+      "NOW Foods, Chromium Picolinate, 200 mcg, 250 veg capsules",
+      "Chromium Picolinate",
+    ],
+    category: "metabolic",
+    mechanism: "Human evidence for glucose metabolism is modest and most evident in chromium-deficient people",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 200.0, high: 400.0, unit: "mcg", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "human evidence for glucose metabolism is modest and most evident in chromium-deficient people",
+    cautions: [
+      "caution with insulin and oral hypoglycemics (unverified magnitude)",
+      "high doses may affect kidney/liver (rare)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Chromium Picolinate",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=chromium+picolinate",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-chromium-picolinate-200-mcg-250-veg-capsules/508",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-chromium-picolinate-200-mcg-250-veg-capsules/508",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "metabolic health",
+    ],
+  },
+  {
+    slug: "berberine-glucose-support",
+    name: "Berberine Glucose Support",
+    aliases: [
+      "NOW Foods, Berberine Glucose Support, 60 softgels",
+      "Berberine Glucose Support",
+    ],
+    category: "metabolic",
+    mechanism: "Berberine ingredient-level evidence applies; blend outcome data limited",
+    forms: [
+      {
+        name: "softgels",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1.0, high: 2.0, unit: "softgels", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "C",
+    summary: "berberine ingredient-level evidence applies; blend outcome data limited",
+    cautions: [
+      "same berberine CYP and glucose-lowering cautions",
+    ],
+    interactionRuleIds: [
+      "R009",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Berberine Glucose Support",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=berberine+glucose+support",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-berberine-glucose-support-60-softgels/151146",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-berberine-glucose-support-60-softgels/151146",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "metabolic health",
+    ],
+  },
+  {
+    slug: "glucose-metabolic-support",
+    name: "Glucose Metabolic Support",
+    aliases: [
+      "NOW Foods, Glucose Metabolic Support, 90 veg capsules",
+      "Glucose Metabolic Support",
+    ],
+    category: "metabolic",
+    mechanism: "Ingredient-level evidence only; product-specific human data not established",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "ingredient-level evidence only; product-specific human data not established",
+    cautions: [
+      "caution with diabetes drugs",
+      "check label for multiple glucose-active ingredients",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Glucose Metabolic Support",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=glucose+metabolic+support",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-glucose-metabolic-support-90-veg-capsules/628",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-glucose-metabolic-support-90-veg-capsules/628",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "metabolic health",
+    ],
+  },
+  {
+    slug: "clinically-advanced-hair-skin-and-nails",
+    name: "Clinically Advanced Hair Skin & Nails",
+    aliases: [
+      "NOW Foods Solutions, Clinically Advanced Hair Skin & Nails, 90 veg capsules",
+      "Clinically Advanced Hair Skin & Nails",
+    ],
+    category: "skin/hair/nails",
+    mechanism: "Contains Cynatine solubilized keratin, biotin, hyaluronic acid and vitamins; keratin has small human trials for hair and nails",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "softgels",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "contains Cynatine solubilized keratin, biotin, hyaluronic acid and vitamins; keratin has small human trials for hair and nails",
+    cautions: [
+      "high biotin can interfere with thyroid and troponin lab assays",
+      "stop 2-3 days before blood tests if advised",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Clinically Advanced Hair Skin & Nails",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=clinically+advanced+hair+skin+and+nails",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-solutions-clinically-advanced-hair-skin-nails-90-veg-capsules/53196",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-solutions-clinically-advanced-hair-skin-nails-90-veg-capsules/53196",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "skin elasticity",
     ],
   },
 ];

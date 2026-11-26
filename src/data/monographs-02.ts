@@ -1,57 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 14 to 26. Do not hand edit.
+// Entries 15 to 28. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch02: Monograph[] = [
-  {
-    slug: "vitamin-d3-k2-as-mk-7",
-    name: "Vitamin D3 + K2 as MK-7",
-    aliases: [
-      "California Gold Nutrition, Vitamin D3 + K2 as MK-7, 180 veggie capsules",
-      "Vitamin D3 + K2 as MK-7",
-    ],
-    category: "vitamins",
-    mechanism: "D3 strong for deficiency; K2 cardiovascular and bone outcome trials ongoing and mixed",
-    forms: [
-      {
-        name: "veggie capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 5000.0, high: 5000.0, unit: "IU", upperLimit: undefined },
-    timing: "with a fatty meal",
-    evidenceGrade: "C",
-    summary: "D3 strong for deficiency; K2 cardiovascular and bone outcome trials ongoing and mixed",
-    cautions: [
-      "warfarin interaction",
-      "higher D3 dose needs blood-level monitoring",
-    ],
-    interactionRuleIds: [
-      "R012",
-      "R029",
-    ],
-    citations: [
-      {
-        label: "PubMed search: Vitamin D3 + K2 as MK-7",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=vitamin+d3+k2+as+mk+7",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/california-gold-nutrition-vitamin-d3-k2-as-mk-7-180-veggie-capsules/124745",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/california-gold-nutrition-vitamin-d3-k2-as-mk-7-180-veggie-capsules/124745",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "nutrient adequacy",
-    ],
-  },
   {
     slug: "methyl-b-12",
     name: "Methyl B-12",
@@ -64,20 +16,20 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "lozenges",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "sprays",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
     ],
@@ -121,8 +73,8 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "lozenges",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -165,14 +117,14 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -216,14 +168,14 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -268,8 +220,8 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "vegetarian capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -313,8 +265,8 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -358,14 +310,14 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -411,20 +363,20 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -468,20 +420,20 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental magnesium fraction for the glycinate chelate.",
+        elementalMg: 0.14,
         timing: "evening",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental magnesium fraction for the glycinate chelate.",
+        elementalMg: 0.14,
         timing: "evening",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental magnesium fraction for the glycinate chelate.",
+        elementalMg: 0.14,
         timing: "evening",
       },
     ],
@@ -530,26 +482,26 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental magnesium fraction for citrate.",
+        elementalMg: 0.16,
         timing: "evening",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental magnesium fraction for citrate.",
+        elementalMg: 0.16,
         timing: "evening",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental magnesium fraction for citrate.",
+        elementalMg: 0.16,
         timing: "evening",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental magnesium fraction for citrate.",
+        elementalMg: 0.16,
         timing: "evening",
       },
     ],
@@ -597,20 +549,20 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental iron fraction for the bisglycinate chelate.",
+        elementalMg: 0.2,
         timing: "empty_stomach",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental iron fraction for the bisglycinate chelate.",
+        elementalMg: 0.2,
         timing: "empty_stomach",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental iron fraction for the bisglycinate chelate.",
+        elementalMg: 0.2,
         timing: "empty_stomach",
       },
     ],
@@ -658,20 +610,20 @@ export const batch02: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental fraction not confirmed on the checked label, treated as indicative.",
+        elementalMg: 0.5,
         timing: "morning_food",
       },
       {
         name: "lozenges",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental fraction not confirmed on the checked label, treated as indicative.",
+        elementalMg: 0.5,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental fraction not confirmed on the checked label, treated as indicative.",
+        elementalMg: 0.5,
         timing: "morning_food",
       },
     ],
@@ -706,6 +658,114 @@ export const batch02: Monograph[] = [
     reviewer: "DM",
     goals: [
       "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "kelp",
+    name: "Kelp",
+    aliases: [
+      "NOW Foods, Kelp, 325 mcg iodine, 250 veg capsules",
+      "Kelp",
+    ],
+    category: "minerals",
+    mechanism: "Iodine is essential for thyroid hormone synthesis; kelp iodine content varies, so evidence is stronger for defined iodine doses than for whole kelp",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 150.0, high: 325.0, unit: "mcg", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "D",
+    summary: "iodine is essential for thyroid hormone synthesis; kelp iodine content varies, so evidence is stronger for defined iodine doses than for whole kelp",
+    cautions: [
+      "excess iodine can trigger hypo- or hyperthyroidism",
+      "caution with thyroid medication and amiodarone",
+    ],
+    interactionRuleIds: [
+      "R010",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Kelp",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=kelp",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-kelp-325-mcg-250-veg-capsules/15892",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-kelp-325-mcg-250-veg-capsules/15892",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+      "traditional support",
+    ],
+  },
+  {
+    slug: "thyroid-energy",
+    name: "Thyroid Energy",
+    aliases: [
+      "NOW Foods, Thyroid Energy, 90 veg capsules",
+      "Thyroid Energy",
+    ],
+    category: "minerals",
+    mechanism: "Ingredient-level evidence for iodine and tyrosine adequacy; herbal blend outcome evidence in humans is limited",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "morning with food",
+    evidenceGrade: "B",
+    summary: "ingredient-level evidence for iodine and tyrosine adequacy; herbal blend outcome evidence in humans is limited",
+    cautions: [
+      "contains iodine and tyrosine",
+      "caution with thyroid drugs, amiodarone and iodine sensitivity",
+    ],
+    interactionRuleIds: [
+      "R010",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Thyroid Energy",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=thyroid+energy",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-thyroid-energy-90-veg-capsules/843",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-thyroid-energy-90-veg-capsules/843",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+      "traditional support",
     ],
   },
 ];

@@ -1,349 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 92 to 104. Do not hand edit.
+// Entries 99 to 112. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch08: Monograph[] = [
-  {
-    slug: "sleep",
-    name: "Sleep",
-    aliases: [
-      "NOW Foods, Sleep, 90 veg capsules",
-      "Sleep",
-    ],
-    category: "sleep/mood",
-    mechanism: "Valerian, 5-HTP and GABA blend; valerian human evidence is weak and inconsistent",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "bedtime",
-      },
-    ],
-    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
-    timing: "30-60 minutes before sleep",
-    evidenceGrade: "B",
-    summary: "valerian, 5-HTP and GABA blend; valerian human evidence is weak and inconsistent",
-    cautions: [
-      "5-HTP serotonin-interaction caution with SSRI/SNRI/MAOI drugs",
-      "avoid alcohol and driving after use",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Sleep",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=sleep",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-sleep-90-veg-capsules/39374",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-sleep-90-veg-capsules/39374",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "sleep quality",
-    ],
-  },
-  {
-    slug: "5-htp-with-glycine-taurine-and-inositol",
-    name: "5-HTP with Glycine, Taurine & Inositol",
-    aliases: [
-      "NOW Foods, 5-HTP with Glycine, Taurine & Inositol, 60 veg capsules",
-      "5-HTP with Glycine, Taurine & Inositol",
-    ],
-    category: "sleep/mood",
-    mechanism: "Glycine has small human sleep data; 5-HTP evidence is low quality",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "bedtime",
-      },
-    ],
-    doseRange: { low: 1.0, high: 2.0, unit: "capsules", upperLimit: undefined },
-    timing: "before bed",
-    evidenceGrade: "B",
-    summary: "glycine has small human sleep data; 5-HTP evidence is low quality",
-    cautions: [
-      "same serotonin-syndrome caution with serotonergic drugs",
-    ],
-    interactionRuleIds: [
-      "R007",
-      "R008",
-    ],
-    citations: [
-      {
-        label: "PubMed search: 5-HTP with Glycine, Taurine & Inositol",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=5+htp+with+glycine+taurine+and+inositol",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-5-htp-with-glycine-taurine-inositol-60-veg-capsules/593",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-5-htp-with-glycine-taurine-inositol-60-veg-capsules/593",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "sleep quality",
-    ],
-  },
-  {
-    slug: "berberine-hcl",
-    name: "Berberine HCl",
-    aliases: [
-      "NOW Foods, Berberine HCl, 500 mg, 90 veg capsules",
-      "Berberine HCl",
-    ],
-    category: "metabolic",
-    mechanism: "Human meta-analyses show modest fasting glucose and lipid improvements, but trials vary in quality",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 500.0, high: 500.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals to reduce GI upset",
-    evidenceGrade: "B",
-    summary: "human meta-analyses show modest fasting glucose and lipid improvements, but trials vary in quality",
-    cautions: [
-      "can inhibit CYP3A4/2D6 and affect many drugs",
-      "caution with diabetes medications due to hypoglycemia",
-      "avoid in pregnancy",
-    ],
-    interactionRuleIds: [
-      "R009",
-    ],
-    citations: [
-      {
-        label: "PubMed search: Berberine HCl",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=berberine+hcl",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-berberine-hcl-500-mg-90-veg-capsules/148551",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-berberine-hcl-500-mg-90-veg-capsules/148551",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "metabolic health",
-      "cardiovascular support",
-    ],
-  },
-  {
-    slug: "chromium-picolinate",
-    name: "Chromium Picolinate",
-    aliases: [
-      "NOW Foods, Chromium Picolinate, 200 mcg, 250 veg capsules",
-      "Chromium Picolinate",
-    ],
-    category: "metabolic",
-    mechanism: "Human evidence for glucose metabolism is modest and most evident in chromium-deficient people",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 200.0, high: 400.0, unit: "mcg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "human evidence for glucose metabolism is modest and most evident in chromium-deficient people",
-    cautions: [
-      "caution with insulin and oral hypoglycemics (unverified magnitude)",
-      "high doses may affect kidney/liver (rare)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Chromium Picolinate",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=chromium+picolinate",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-chromium-picolinate-200-mcg-250-veg-capsules/508",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-chromium-picolinate-200-mcg-250-veg-capsules/508",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "metabolic health",
-    ],
-  },
-  {
-    slug: "berberine-glucose-support",
-    name: "Berberine Glucose Support",
-    aliases: [
-      "NOW Foods, Berberine Glucose Support, 60 softgels",
-      "Berberine Glucose Support",
-    ],
-    category: "metabolic",
-    mechanism: "Berberine ingredient-level evidence applies; blend outcome data limited",
-    forms: [
-      {
-        name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1.0, high: 2.0, unit: "softgels", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "C",
-    summary: "berberine ingredient-level evidence applies; blend outcome data limited",
-    cautions: [
-      "same berberine CYP and glucose-lowering cautions",
-    ],
-    interactionRuleIds: [
-      "R009",
-    ],
-    citations: [
-      {
-        label: "PubMed search: Berberine Glucose Support",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=berberine+glucose+support",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-berberine-glucose-support-60-softgels/151146",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-berberine-glucose-support-60-softgels/151146",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "metabolic health",
-    ],
-  },
-  {
-    slug: "glucose-metabolic-support",
-    name: "Glucose Metabolic Support",
-    aliases: [
-      "NOW Foods, Glucose Metabolic Support, 90 veg capsules",
-      "Glucose Metabolic Support",
-    ],
-    category: "metabolic",
-    mechanism: "Ingredient-level evidence only; product-specific human data not established",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "ingredient-level evidence only; product-specific human data not established",
-    cautions: [
-      "caution with diabetes drugs",
-      "check label for multiple glucose-active ingredients",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Glucose Metabolic Support",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=glucose+metabolic+support",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-glucose-metabolic-support-90-veg-capsules/628",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-glucose-metabolic-support-90-veg-capsules/628",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "metabolic health",
-    ],
-  },
-  {
-    slug: "clinically-advanced-hair-skin-and-nails",
-    name: "Clinically Advanced Hair Skin & Nails",
-    aliases: [
-      "NOW Foods Solutions, Clinically Advanced Hair Skin & Nails, 90 veg capsules",
-      "Clinically Advanced Hair Skin & Nails",
-    ],
-    category: "skin/hair/nails",
-    mechanism: "Contains Cynatine solubilized keratin, biotin, hyaluronic acid and vitamins; keratin has small human trials for hair and nails",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "contains Cynatine solubilized keratin, biotin, hyaluronic acid and vitamins; keratin has small human trials for hair and nails",
-    cautions: [
-      "high biotin can interfere with thyroid and troponin lab assays",
-      "stop 2-3 days before blood tests if advised",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Clinically Advanced Hair Skin & Nails",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=clinically+advanced+hair+skin+and+nails",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-solutions-clinically-advanced-hair-skin-nails-90-veg-capsules/53196",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-solutions-clinically-advanced-hair-skin-nails-90-veg-capsules/53196",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "skin elasticity",
-    ],
-  },
   {
     slug: "vegan-hair-skin-and-nails",
     name: "Vegan Hair Skin & Nails",
@@ -356,8 +16,8 @@ export const batch08: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -400,8 +60,8 @@ export const batch08: Monograph[] = [
     forms: [
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -446,8 +106,8 @@ export const batch08: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -491,14 +151,14 @@ export const batch08: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -545,8 +205,8 @@ export const batch08: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -593,8 +253,8 @@ export const batch08: Monograph[] = [
     forms: [
       {
         name: "veggie capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -626,6 +286,388 @@ export const batch08: Monograph[] = [
     goals: [
       "mitochondrial energy",
       "longevity",
+    ],
+  },
+  {
+    slug: "nmn-nad-cell-support-90-vegetarian-capsules-with-resveratrol-quercetin-and-fisetin",
+    name: "NMN NAD+ Cell Support, 90 vegetarian capsules with resveratrol, quercetin and fisetin",
+    aliases: [
+      "Life Extension, NMN NAD+ Cell Support, 90 vegetarian capsules with resveratrol, quercetin and fisetin",
+      "NMN NAD+ Cell Support, 90 vegetarian capsules with resveratrol, quercetin and fisetin",
+    ],
+    category: "longevity/NAD",
+    mechanism: "NAD+ precursor effect on blood NAD+ is human evidence, disease prevention is not",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 300.0, high: 300.0, unit: "mg", upperLimit: undefined },
+    timing: "morning with food",
+    evidenceGrade: "B",
+    summary: "NAD+ precursor effect on blood NAD+ is human evidence, disease prevention is not",
+    cautions: [
+      "same polyphenol interaction cautions",
+    ],
+    interactionRuleIds: [
+      "R030",
+    ],
+    citations: [
+      {
+        label: "PubMed search: NMN NAD+ Cell Support, 90 vegetarian capsules with resveratrol, quercetin and fisetin",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=nmn+nad+cell+support+90+vegetarian+capsules+with+resveratrol+quercetin+and+fisetin",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/life-extension-nmn-nad-cell-support-90-vegetarian-capsules-300-mg-per-capsule/162457",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/life-extension-nmn-nad-cell-support-90-vegetarian-capsules-300-mg-per-capsule/162457",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "mitochondrial energy",
+      "longevity",
+    ],
+  },
+  {
+    slug: "certified-organic-spirulina",
+    name: "Certified Organic Spirulina",
+    aliases: [
+      "NOW Foods, Certified Organic Spirulina, 500 mg, 500 tablets",
+      "Certified Organic Spirulina",
+    ],
+    category: "greens/superfoods",
+    mechanism: "Whole-food nutrient source; human evidence for specific health outcomes is limited and not equivalent to a multivitamin",
+    forms: [
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 3.0, high: 6.0, unit: "g", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "whole-food nutrient source; human evidence for specific health outcomes is limited and not equivalent to a multivitamin",
+    cautions: [
+      "caution with autoimmune disease and phenylketonuria (phenylalanine content)",
+      "check for contamination testing",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Certified Organic Spirulina",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=certified+organic+spirulina",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-certified-organic-spirulina-500-mg-500-tablets/783",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-certified-organic-spirulina-500-mg-500-tablets/783",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "certified-organic-spirulina-powder",
+    name: "Certified Organic Spirulina Powder",
+    aliases: [
+      "NOW Foods, Certified Organic Spirulina Powder, 1 lb",
+      "Certified Organic Spirulina Powder",
+    ],
+    category: "greens/superfoods",
+    mechanism: "Same whole-food evidence profile as tablets",
+    forms: [
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 3.0, high: 6.0, unit: "g", upperLimit: undefined },
+    timing: "any time",
+    evidenceGrade: "D",
+    summary: "same whole-food evidence profile as tablets",
+    cautions: [
+      "same autoimmune/PKU caution",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Certified Organic Spirulina Powder",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=certified+organic+spirulina+powder",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-certified-organic-spirulina-powder-1-lb-454-g/7262",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-certified-organic-spirulina-powder-1-lb-454-g/7262",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "certified-organic-chlorella-pure-powder",
+    name: "Certified Organic Chlorella, Pure Powder",
+    aliases: [
+      "NOW Foods, Certified Organic Chlorella, Pure Powder, 1 lb",
+      "Certified Organic Chlorella, Pure Powder",
+    ],
+    category: "greens/superfoods",
+    mechanism: "Small human studies suggest chlorella may support lipid markers, evidence limited",
+    forms: [
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 3.0, high: 10.0, unit: "g", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "small human studies suggest chlorella may support lipid markers, evidence limited",
+    cautions: [
+      "can cause GI upset",
+      "caution with iodine-containing thyroid protocols (unverified)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Certified Organic Chlorella, Pure Powder",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=certified+organic+chlorella+pure+powder",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/c/algae",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/c/algae",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "super-greens-with-spirulina-chlorella-kelp-and-apple-pectin",
+    name: "Super Greens with Spirulina, Chlorella, Kelp and Apple Pectin",
+    aliases: [
+      "California Gold Nutrition, Super Greens with Spirulina, Chlorella, Kelp and Apple Pectin, 8.8 oz",
+      "Super Greens with Spirulina, Chlorella, Kelp and Apple Pectin",
+    ],
+    category: "greens/superfoods",
+    mechanism: "Greens blends have limited outcome evidence, primarily nutrient intake support",
+    forms: [
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "morning in water or smoothie",
+    evidenceGrade: "C",
+    summary: "greens blends have limited outcome evidence, primarily nutrient intake support",
+    cautions: [
+      "contains kelp iodine",
+      "caution with thyroid medication and iodine excess",
+    ],
+    interactionRuleIds: [
+      "R010",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Super Greens with Spirulina, Chlorella, Kelp and Apple Pectin",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=super+greens+with+spirulina+chlorella+kelp+and+apple+pectin",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/california-gold-nutrition-super-greens-with-spirulina-chlorella-kelp-and-apple-pectin-8-8-oz-250-g/137942",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/california-gold-nutrition-super-greens-with-spirulina-chlorella-kelp-and-apple-pectin-8-8-oz-250-g/137942",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "kyo-green-powdered-drink-mix-greens-blend",
+    name: "Kyo-Green Powdered Drink Mix Greens Blend",
+    aliases: [
+      "Kyolic, Kyo-Green Powdered Drink Mix Greens Blend, 10 oz",
+      "Kyo-Green Powdered Drink Mix Greens Blend",
+    ],
+    category: "greens/superfoods",
+    mechanism: "Whole-food greens blend, human outcome evidence limited",
+    forms: [
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "morning",
+    evidenceGrade: "B",
+    summary: "whole-food greens blend, human outcome evidence limited",
+    cautions: [
+      "no established drug interaction",
+      "check sodium/potassium if on renal diet",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Kyo-Green Powdered Drink Mix Greens Blend",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=kyo+green+powdered+drink+mix+greens+blend",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/kyolic-kyo-green-powdered-drink-mix-greens-blend-10-oz-0-63-lb/3945",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/kyolic-kyo-green-powdered-drink-mix-greens-blend-10-oz-0-63-lb/3945",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "super-enzymes-2",
+    name: "Super Enzymes",
+    aliases: [
+      "NOW Foods, Super Enzymes, 180 tablets",
+      "Super Enzymes",
+    ],
+    category: "enzymes",
+    mechanism: "Same meal-dependent digestive enzyme evidence",
+    forms: [
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "with food",
+    evidenceGrade: "D",
+    summary: "same meal-dependent digestive enzyme evidence",
+    cautions: [
+      "contains ox bile",
+      "gallbladder caution",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Super Enzymes",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=super+enzymes+2",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-super-enzymes-180-tablets/856",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-super-enzymes-180-tablets/856",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "digestive comfort",
+    ],
+  },
+  {
+    slug: "bromelain",
+    name: "Bromelain",
+    aliases: [
+      "NOW Foods, Bromelain",
+      "Bromelain",
+    ],
+    category: "enzymes",
+    mechanism: "Human evidence for post-surgical swelling and osteoarthritis is modest",
+    forms: [
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "empty_stomach",
+      },
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "empty_stomach",
+      },
+    ],
+    doseRange: { low: 200.0, high: 400.0, unit: "mg", upperLimit: undefined },
+    timing: "between meals if used systemically, with meals if used for digestion",
+    evidenceGrade: "B",
+    summary: "human evidence for post-surgical swelling and osteoarthritis is modest",
+    cautions: [
+      "anticoagulant and antiplatelet caution",
+      "caution before surgery",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Bromelain",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=bromelain",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/c/digestive-enzymes",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/c/digestive-enzymes",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "digestive comfort",
+      "joint repair",
     ],
   },
 ];

@@ -1,167 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 40 to 52. Do not hand edit.
+// Entries 43 to 56. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch04: Monograph[] = [
-  {
-    slug: "l-phenylalanine",
-    name: "L-Phenylalanine",
-    aliases: [
-      "NOW Foods, L-Phenylalanine, 500 mg, 120 veg capsules",
-      "L-Phenylalanine",
-    ],
-    category: "amino acids",
-    mechanism: "Human evidence for mood is weak; phenylalanine is an essential amino acid and precursor to dopamine and norepinephrine",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "evening",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "evening",
-      },
-    ],
-    doseRange: { low: 500.0, high: 1000.0, unit: "mg", upperLimit: undefined },
-    timing: "morning or with meals, not late evening",
-    evidenceGrade: "B",
-    summary: "human evidence for mood is weak; phenylalanine is an essential amino acid and precursor to dopamine and norepinephrine",
-    cautions: [
-      "contraindicated in phenylketonuria",
-      "caution with MAO inhibitors and bipolar disorder (unverified interaction detail)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: L-Phenylalanine",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=l+phenylalanine",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-l-phenylalanine-500-mg-120-veg-capsules/736",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-l-phenylalanine-500-mg-120-veg-capsules/736",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "antioxidant defence",
-    ],
-  },
-  {
-    slug: "5-htp",
-    name: "5-HTP",
-    aliases: [
-      "NOW Foods, 5-HTP, 100 mg, 120 veg capsules",
-      "5-HTP",
-    ],
-    category: "amino acids",
-    mechanism: "Small human trials suggest possible mood and sleep benefits, but evidence quality is low and inconsistent",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "bedtime",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "bedtime",
-      },
-    ],
-    doseRange: { low: 100.0, high: 300.0, unit: "mg", upperLimit: undefined },
-    timing: "evening for sleep; with meals for mood use",
-    evidenceGrade: "B",
-    summary: "small human trials suggest possible mood and sleep benefits, but evidence quality is low and inconsistent",
-    cautions: [
-      "do not combine with SSRIs, SNRIs, MAOIs or tramadol due to serotonin syndrome risk",
-      "caution before surgery",
-    ],
-    interactionRuleIds: [
-      "R007",
-      "R008",
-    ],
-    citations: [
-      {
-        label: "PubMed search: 5-HTP",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=5+htp",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-5-htp-100-mg-120-veg-capsules/306",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-5-htp-100-mg-120-veg-capsules/306",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "antioxidant defence",
-      "sleep quality",
-    ],
-  },
-  {
-    slug: "taurine",
-    name: "Taurine",
-    aliases: [
-      "NOW Foods, Taurine, 1,000 mg, 100 veg capsules",
-      "Taurine",
-    ],
-    category: "amino acids",
-    mechanism: "Human evidence for bile acid conjugation and some cardiovascular markers; exercise-performance data are mixed",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1.0, high: 3.0, unit: "g", upperLimit: undefined },
-    timing: "any time with food",
-    evidenceGrade: "B",
-    summary: "human evidence for bile acid conjugation and some cardiovascular markers; exercise-performance data are mixed",
-    cautions: [
-      "no established drug interaction",
-      "caution in severe liver disease (unverified)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Taurine",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=taurine",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/now-foods/amino-acids",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/now-foods/amino-acids",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "antioxidant defence",
-      "cardiovascular support",
-    ],
-  },
   {
     slug: "omega-3-fish-oil",
     name: "Omega-3 Fish Oil",
@@ -174,20 +16,20 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "enteric coated",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -235,8 +77,8 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -285,8 +127,8 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -333,8 +175,8 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -381,8 +223,8 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -429,14 +271,14 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -483,14 +325,14 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -534,8 +376,8 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -582,14 +424,14 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -636,20 +478,20 @@ export const batch04: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -681,6 +523,218 @@ export const batch04: Monograph[] = [
       "antioxidant defence",
       "longevity",
       "cardiovascular support",
+    ],
+  },
+  {
+    slug: "coq10-with-hawthorn-berry",
+    name: "CoQ10 with Hawthorn Berry",
+    aliases: [
+      "NOW Foods, CoQ10 with Hawthorn Berry, 100 mg, 90 veg capsules",
+      "CoQ10 with Hawthorn Berry",
+    ],
+    category: "antioxidants",
+    mechanism: "CoQ10 has mixed but plausible human data; hawthorn has some heart-failure trial data but product-level evidence is not established",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 100.0, high: 100.0, unit: "mg", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "CoQ10 has mixed but plausible human data; hawthorn has some heart-failure trial data but product-level evidence is not established",
+    cautions: [
+      "hawthorn can interact with cardiac drugs including digoxin and beta blockers",
+      "do not combine without clinician review",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: CoQ10 with Hawthorn Berry",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=coq10+with+hawthorn+berry",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-coq10-with-hawthorn-berry-100-mg-90-veg-capsules/37834",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-coq10-with-hawthorn-berry-100-mg-90-veg-capsules/37834",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "antioxidant defence",
+      "longevity",
+      "cardiovascular support",
+    ],
+  },
+  {
+    slug: "alpha-lipoic-acid",
+    name: "Alpha Lipoic Acid",
+    aliases: [
+      "NOW Foods, Alpha Lipoic Acid, 100 mg, 120 veg capsules",
+      "Alpha Lipoic Acid",
+    ],
+    category: "antioxidants",
+    mechanism: "Human evidence for diabetic neuropathy symptoms at 600 mg/day; general antioxidant claims are weaker",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "empty_stomach",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "empty_stomach",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "empty_stomach",
+      },
+    ],
+    doseRange: { low: 100.0, high: 600.0, unit: "mg", upperLimit: undefined },
+    timing: "with meals; some take on empty stomach per label",
+    evidenceGrade: "B",
+    summary: "human evidence for diabetic neuropathy symptoms at 600 mg/day; general antioxidant claims are weaker",
+    cautions: [
+      "can lower blood glucose, caution with insulin/oral hypoglycemics",
+      "may reduce thyroid hormone absorption (unverified)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Alpha Lipoic Acid",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=alpha+lipoic+acid",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-alpha-lipoic-acid-100-mg-120-veg-capsules/311",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-alpha-lipoic-acid-100-mg-120-veg-capsules/311",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "antioxidant defence",
+      "longevity",
+      "metabolic health",
+    ],
+  },
+  {
+    slug: "astaxanthin",
+    name: "Astaxanthin",
+    aliases: [
+      "NOW Foods, Astaxanthin, 10 mg, 60 softgels",
+      "Astaxanthin",
+    ],
+    category: "antioxidants",
+    mechanism: "Human trials suggest modest skin and eye benefits and antioxidant effects; larger clinical claims remain unverified",
+    forms: [
+      {
+        name: "softgels",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 4.0, high: 12.0, unit: "mg", upperLimit: undefined },
+    timing: "with meals containing fat",
+    evidenceGrade: "B",
+    summary: "human trials suggest modest skin and eye benefits and antioxidant effects; larger clinical claims remain unverified",
+    cautions: [
+      "no established drug interaction",
+      "can change stool color (unverified)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Astaxanthin",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=astaxanthin",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-astaxanthin-10-mg-60-softgels/38292",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-astaxanthin-10-mg-60-softgels/38292",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "antioxidant defence",
+      "longevity",
+      "skin elasticity",
+    ],
+  },
+  {
+    slug: "lutein-and-zeaxanthin",
+    name: "Lutein & Zeaxanthin",
+    aliases: [
+      "NOW Foods, Lutein & Zeaxanthin, 25 mg + 5 mg, 60 softgels",
+      "Lutein & Zeaxanthin",
+    ],
+    category: "antioxidants",
+    mechanism: "Human trials support increased macular pigment density and some visual-function outcomes",
+    forms: [
+      {
+        name: "softgels",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "gummies",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 10.0, high: 10.0, unit: "mg", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "human trials support increased macular pigment density and some visual-function outcomes",
+    cautions: [
+      "no major drug interaction established",
+      "high dose carotenoids can discolor skin (unverified at this dose)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Lutein & Zeaxanthin",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=lutein+and+zeaxanthin",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-lutein-zeaxanthin-60-softgels/70960",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-lutein-zeaxanthin-60-softgels/70960",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "antioxidant defence",
+      "longevity",
+      "cognitive support",
     ],
   },
 ];

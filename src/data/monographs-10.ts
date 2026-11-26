@@ -1,532 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 118 to 130. Do not hand edit.
+// Entries 127 to 134. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch10: Monograph[] = [
-  {
-    slug: "saw-palmetto-extract",
-    name: "Saw Palmetto Extract",
-    aliases: [
-      "NOW Foods, Saw Palmetto Extract, 90 veg softgels",
-      "Saw Palmetto Extract",
-    ],
-    category: "herbals",
-    mechanism: "Human trials for benign prostate symptoms show modest effects at best, mixed overall",
-    forms: [
-      {
-        name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 160.0, high: 160.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "human trials for benign prostate symptoms show modest effects at best, mixed overall",
-    cautions: [
-      "can interact with hormone therapies and anticoagulants (unverified)",
-      "may cause GI upset",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Saw Palmetto Extract",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=saw+palmetto+extract",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/now-foods/herbs",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/now-foods/herbs",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "traditional support",
-    ],
-  },
-  {
-    slug: "echinacea",
-    name: "Echinacea",
-    aliases: [
-      "NOW Foods, Echinacea",
-      "Echinacea",
-    ],
-    category: "herbals",
-    mechanism: "Human evidence for common cold prevention/treatment is inconsistent",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "liquid extract",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tea",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 400.0, high: 1000.0, unit: "mg", upperLimit: undefined },
-    timing: "at first sign of cold, short-term use",
-    evidenceGrade: "B",
-    summary: "human evidence for common cold prevention/treatment is inconsistent",
-    cautions: [
-      "avoid in autoimmune disease and with immunosuppressants (unverified interaction)",
-      "allergy to Asteraceae",
-    ],
-    interactionRuleIds: [
-      "R005",
-      "R014",
-    ],
-    citations: [
-      {
-        label: "PubMed search: Echinacea",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=echinacea",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/herbs",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/herbs",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "traditional support",
-    ],
-  },
-  {
-    slug: "elderberry",
-    name: "Elderberry",
-    aliases: [
-      "NOW Foods, Elderberry (Sambucus)",
-      "Elderberry",
-    ],
-    category: "herbals",
-    mechanism: "Small human trials suggest reduced cold/flu symptom duration, evidence quality limited",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "syrup",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "gummies",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 500.0, high: 1000.0, unit: "mg", upperLimit: undefined },
-    timing: "at onset of cold or seasonally",
-    evidenceGrade: "B",
-    summary: "small human trials suggest reduced cold/flu symptom duration, evidence quality limited",
-    cautions: [
-      "avoid raw/unprocessed berry due to cyanogenic glycosides",
-      "caution with immunosuppressants (unverified)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Elderberry",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=elderberry",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/elderberry-sambucus",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/elderberry-sambucus",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "traditional support",
-    ],
-  },
-  {
-    slug: "ginger-root",
-    name: "Ginger Root",
-    aliases: [
-      "NOW Foods, Ginger Root",
-      "Ginger Root",
-    ],
-    category: "herbals",
-    mechanism: "Human evidence supports ginger for nausea including pregnancy and motion sickness",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tea",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 500.0, high: 1000.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals or before travel for nausea",
-    evidenceGrade: "B",
-    summary: "human evidence supports ginger for nausea including pregnancy and motion sickness",
-    cautions: [
-      "anticoagulant caution at high doses",
-      "may worsen reflux in some people",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Ginger Root",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=ginger+root",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/herbs",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/herbs",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "traditional support",
-      "digestive comfort",
-    ],
-  },
-  {
-    slug: "nettle-leaf",
-    name: "Nettle Leaf",
-    aliases: [
-      "NOW Foods, Nettle Leaf",
-      "Nettle Leaf",
-    ],
-    category: "herbals",
-    mechanism: "Traditional use for allergies and urinary health; limited human outcome evidence",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tea",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 300.0, high: 600.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "traditional use for allergies and urinary health; limited human outcome evidence",
-    cautions: [
-      "may interact with diabetes and blood-pressure drugs (unverified cautions)",
-      "can sting on contact as plant",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Nettle Leaf",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=nettle+leaf",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/herbs",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/herbs",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "traditional support",
-    ],
-  },
-  {
-    slug: "dandelion-root",
-    name: "Dandelion Root",
-    aliases: [
-      "NOW Foods, Dandelion Root",
-      "Dandelion Root",
-    ],
-    category: "herbals",
-    mechanism: "Traditional digestive and liver support use, limited human evidence",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tea",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 500.0, high: 1000.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "traditional digestive and liver support use, limited human evidence",
-    cautions: [
-      "caution with lithium (diuretic effect may alter levels, unverified), and Asteraceae allergy",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Dandelion Root",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=dandelion+root",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/herbs",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/herbs",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "traditional support",
-      "digestive comfort",
-    ],
-  },
-  {
-    slug: "artichoke-extract",
-    name: "Artichoke Extract",
-    aliases: [
-      "NOW Foods, Artichoke Extract",
-      "Artichoke Extract",
-    ],
-    category: "herbals",
-    mechanism: "Small human studies suggest LDL-lowering effects, evidence modest",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 600.0, high: 1800.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "small human studies suggest LDL-lowering effects, evidence modest",
-    cautions: [
-      "caution with Asteraceae allergy and gallbladder disease",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Artichoke Extract",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=artichoke+extract",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/herbs",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/herbs",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "traditional support",
-      "metabolic health",
-    ],
-  },
-  {
-    slug: "holy-basil",
-    name: "Holy Basil",
-    aliases: [
-      "NOW Foods, Holy Basil (Tulsi)",
-      "Holy Basil",
-    ],
-    category: "adaptogens",
-    mechanism: "Small human stress/anxiety studies exist; evidence is limited",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tea",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 300.0, high: 600.0, unit: "mg", upperLimit: undefined },
-    timing: "morning or with meals",
-    evidenceGrade: "B",
-    summary: "small human stress/anxiety studies exist; evidence is limited",
-    cautions: [
-      "may lower blood glucose and add to sedatives (unverified interaction)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Holy Basil",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=holy+basil",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/adaptogens",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/adaptogens",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "stress resilience",
-      "traditional support",
-    ],
-  },
-  {
-    slug: "schisandra",
-    name: "Schisandra",
-    aliases: [
-      "NOW Foods, Schisandra",
-      "Schisandra",
-    ],
-    category: "adaptogens",
-    mechanism: "Traditional adaptogen use, limited human outcome evidence",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 500.0, high: 1000.0, unit: "mg", upperLimit: undefined },
-    timing: "morning with food",
-    evidenceGrade: "B",
-    summary: "traditional adaptogen use, limited human outcome evidence",
-    cautions: [
-      "caution with warfarin (unverified interaction) and pregnancy",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Schisandra",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=schisandra",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/adaptogens",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/adaptogens",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "stress resilience",
-      "traditional support",
-    ],
-  },
   {
     slug: "saccharomyces-boulardii-2",
     name: "Saccharomyces Boulardii",
@@ -539,8 +16,8 @@ export const batch10: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -585,8 +62,8 @@ export const batch10: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -632,8 +109,8 @@ export const batch10: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -678,20 +155,20 @@ export const batch10: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -721,6 +198,215 @@ export const batch10: Monograph[] = [
     reviewer: "DM",
     goals: [
       "cognitive support",
+    ],
+  },
+  {
+    slug: "copper-glycinate",
+    name: "Copper Glycinate",
+    aliases: [
+      "NOW Foods, Copper Glycinate, 120 tablets",
+      "Copper Glycinate",
+    ],
+    category: "minerals",
+    mechanism: "Human evidence supports correcting copper deficiency, excess copper is harmful and supplementation beyond need is not supported",
+    forms: [
+      {
+        name: "tablets",
+        note: "Elemental copper fraction for the glycinate chelate.",
+        elementalMg: 0.2,
+        timing: "morning_food",
+      },
+      {
+        name: "capsules",
+        note: "Elemental copper fraction for the glycinate chelate.",
+        elementalMg: 0.2,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1.0, high: 2.0, unit: "mg", upperLimit: undefined },
+    timing: "with a meal",
+    evidenceGrade: "B",
+    summary: "human evidence supports correcting copper deficiency, excess copper is harmful and supplementation beyond need is not supported",
+    cautions: [
+      "do not combine with long-term high-dose zinc without review, Wilson disease caution",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Copper Glycinate",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=copper+glycinate",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-copper-glycinate-120-tablets/116012",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-copper-glycinate-120-tablets/116012",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "selenium",
+    name: "Selenium",
+    aliases: [
+      "NOW Foods, Selenium, 200 mcg, 180 veg capsules",
+      "Selenium",
+    ],
+    category: "minerals",
+    mechanism: "Selenium is essential and human evidence is strongest for deficiency correction, supplementation beyond adequacy has mixed outcome data",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 100.0, high: 200.0, unit: "mcg", upperLimit: 200 },
+    timing: "with meals",
+    evidenceGrade: "A",
+    summary: "selenium is essential and human evidence is strongest for deficiency correction, supplementation beyond adequacy has mixed outcome data",
+    cautions: [
+      "upper limit 400 mcg per day, check all sources before stacking",
+    ],
+    interactionRuleIds: [
+      "R021",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Selenium",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=selenium",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-selenium-200-mcg-180-veg-capsules/818",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-selenium-200-mcg-180-veg-capsules/818",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "niacin",
+    name: "Niacin",
+    aliases: [
+      "NOW Foods, Niacin, 500 mg, 100 veg capsules",
+      "Niacin",
+    ],
+    category: "vitamins",
+    mechanism: "Human evidence supports correcting niacin deficiency, lipid effects at higher doses require medical supervision",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 100.0, high: 500.0, unit: "mg", upperLimit: undefined },
+    timing: "with meals to reduce flushing",
+    evidenceGrade: "B",
+    summary: "human evidence supports correcting niacin deficiency, lipid effects at higher doses require medical supervision",
+    cautions: [
+      "flushing is common, caution with liver disease and gout",
+    ],
+    interactionRuleIds: [
+      "R019",
+      "R022",
+      "R030",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Niacin",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=niacin",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-niacin-500-mg-100-veg-capsules/30566",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-niacin-500-mg-100-veg-capsules/30566",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "mk-7-vitamin-k-2",
+    name: "MK-7 Vitamin K-2",
+    aliases: [
+      "NOW Foods, MK-7 Vitamin K-2, 300 mcg, 60 veg capsules",
+      "MK-7 Vitamin K-2",
+    ],
+    category: "vitamins",
+    mechanism: "Vitamin K2 raises circulating MK-7 in humans, outcome evidence for bone and cardiovascular endpoints remains limited",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "softgels",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 100.0, high: 300.0, unit: "mcg", upperLimit: undefined },
+    timing: "with a fat-containing meal",
+    evidenceGrade: "B",
+    summary: "vitamin K2 raises circulating MK-7 in humans, outcome evidence for bone and cardiovascular endpoints remains limited",
+    cautions: [
+      "direct conflict with warfarin and other vitamin K antagonists",
+    ],
+    interactionRuleIds: [
+      "R006",
+    ],
+    citations: [
+      {
+        label: "PubMed search: MK-7 Vitamin K-2",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=mk+7+vitamin+k+2",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-mk-7-vitamin-k-2-300-mcg-60-veg-capsules/100203",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-mk-7-vitamin-k-2-300-mcg-60-veg-capsules/100203",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+      "joint repair",
     ],
   },
 ];

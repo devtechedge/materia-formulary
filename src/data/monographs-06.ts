@@ -1,269 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 66 to 78. Do not hand edit.
+// Entries 71 to 84. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch06: Monograph[] = [
-  {
-    slug: "maca",
-    name: "Maca",
-    aliases: [
-      "NOW Foods, Maca, 500 mg, 100 veg capsules",
-      "Maca",
-    ],
-    category: "adaptogens",
-    mechanism: "Human evidence for sexual function and mood is limited; traditional use is the main basis",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "gelatin capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 500.0, high: 2000.0, unit: "mg", upperLimit: undefined },
-    timing: "morning with food",
-    evidenceGrade: "B",
-    summary: "human evidence for sexual function and mood is limited; traditional use is the main basis",
-    cautions: [
-      "caution with thyroid disease due to glucosinolates (unverified interaction)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Maca",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=maca",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/maca",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/maca",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "stress resilience",
-    ],
-  },
-  {
-    slug: "reishi-mushroom",
-    name: "Reishi Mushroom",
-    aliases: [
-      "NOW Foods, Reishi Mushroom",
-      "Reishi Mushroom",
-    ],
-    category: "adaptogens",
-    mechanism: "Human evidence is limited and mostly immune-marker or fatigue outcomes; traditional use dominates",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "evening",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "evening",
-      },
-      {
-        name: "liquid extract",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "evening",
-      },
-    ],
-    doseRange: { low: 400.0, high: 3000.0, unit: "mg", upperLimit: undefined },
-    timing: "evening or with meals",
-    evidenceGrade: "B",
-    summary: "human evidence is limited and mostly immune-marker or fatigue outcomes; traditional use dominates",
-    cautions: [
-      "caution with anticoagulants and immunosuppressants (unverified interaction magnitude)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Reishi Mushroom",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=reishi+mushroom",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/reishi",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/reishi",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "stress resilience",
-    ],
-  },
-  {
-    slug: "cordyceps-mushroom",
-    name: "Cordyceps Mushroom",
-    aliases: [
-      "NOW Foods, Cordyceps Mushroom",
-      "Cordyceps Mushroom",
-    ],
-    category: "adaptogens",
-    mechanism: "Small human exercise studies show mixed endurance results; traditional use is primary",
-    forms: [
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1.0, high: 3.0, unit: "g", upperLimit: undefined },
-    timing: "morning or pre-workout",
-    evidenceGrade: "B",
-    summary: "small human exercise studies show mixed endurance results; traditional use is primary",
-    cautions: [
-      "caution with anticoagulants and autoimmune conditions (unverified)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Cordyceps Mushroom",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=cordyceps+mushroom",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/c/mushrooms",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/c/mushrooms",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "stress resilience",
-    ],
-  },
-  {
-    slug: "mem-boost-with-alpha-gpc-lion-s-mane-coffee-fruit-and-phosphatidylserine",
-    name: "MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine",
-    aliases: [
-      "California Gold Nutrition, MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine, 60 veggie capsules",
-      "MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine",
-    ],
-    category: "cognitive",
-    mechanism: "Blend of ingredients with some human data individually, product-level outcome evidence not established",
-    forms: [
-      {
-        name: "veggie capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
-    timing: "morning with food",
-    evidenceGrade: "B",
-    summary: "blend of ingredients with some human data individually, product-level outcome evidence not established",
-    cautions: [
-      "Alpha-GPC can cause headache and low blood pressure",
-      "caution with cholinergic drugs (unverified interaction)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=mem+boost+with+alpha+gpc+lion+s+mane+coffee+fruit+and+phosphatidylserine",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/california-gold-nutrition-mem-boost-memory-cognitive-support-with-alpha-gpc-lion-s-mane-extract-coffee-fruit-extract-and-phosphatidylserine-60-veggie-capsules/114149",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/california-gold-nutrition-mem-boost-memory-cognitive-support-with-alpha-gpc-lion-s-mane-extract-coffee-fruit-extract-and-phosphatidylserine-60-veggie-capsules/114149",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "cognitive support",
-      "stress resilience",
-    ],
-  },
-  {
-    slug: "ginkgo-biloba-with-eleuthero-root",
-    name: "Ginkgo Biloba with Eleuthero Root",
-    aliases: [
-      "NOW Foods, Ginkgo Biloba with Eleuthero Root, 50 veg capsules",
-      "Ginkgo Biloba with Eleuthero Root",
-    ],
-    category: "cognitive",
-    mechanism: "Standardized ginkgo has human trial data for cognitive and vascular symptoms, but results are mixed",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 120.0, high: 240.0, unit: "mg", upperLimit: undefined },
-    timing: "morning or with meals",
-    evidenceGrade: "B",
-    summary: "standardized ginkgo has human trial data for cognitive and vascular symptoms, but results are mixed",
-    cautions: [
-      "significant interaction with warfarin and antiplatelets",
-      "seizure risk with epilepsy drugs (unverified interaction detail)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Ginkgo Biloba with Eleuthero Root",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=ginkgo+biloba+with+eleuthero+root",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-ginkgo-biloba-with-eleuthero-root-50-veg-capsules/102327",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-ginkgo-biloba-with-eleuthero-root-50-veg-capsules/102327",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "cognitive support",
-      "traditional support",
-    ],
-  },
   {
     slug: "psyllium-husk-caps",
     name: "Psyllium Husk Caps",
@@ -276,14 +16,14 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -327,8 +67,8 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -371,14 +111,14 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -423,8 +163,8 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -468,14 +208,14 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder sachets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -522,8 +262,8 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -570,8 +310,8 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -618,14 +358,14 @@ export const batch06: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -656,6 +396,306 @@ export const batch06: Monograph[] = [
     goals: [
       "metabolic health",
       "digestive comfort",
+    ],
+  },
+  {
+    slug: "inositol-powder",
+    name: "Inositol Powder",
+    aliases: [
+      "NOW Foods, Inositol Powder, 4 oz",
+      "Inositol Powder",
+    ],
+    category: "metabolic",
+    mechanism: "Human evidence for myo-inositol in gestational diabetes prevention and some mood outcomes, evidence moderate and dose-dependent",
+    forms: [
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 2.0, high: 4.0, unit: "g", upperLimit: undefined },
+    timing: "divided doses with meals",
+    evidenceGrade: "B",
+    summary: "human evidence for myo-inositol in gestational diabetes prevention and some mood outcomes, evidence moderate and dose-dependent",
+    cautions: [
+      "generally well tolerated at 2-4 g",
+      "high doses can cause nausea (unverified interaction with diabetes drugs)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Inositol Powder",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=inositol+powder",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-inositol-powder-4-oz-113-g/678",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-inositol-powder-4-oz-113-g/678",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "metabolic health",
+    ],
+  },
+  {
+    slug: "candida-support",
+    name: "Candida Support",
+    aliases: [
+      "NOW Foods, Candida Support, 90 veg capsules",
+      "Candida Support",
+    ],
+    category: "gut/digestive",
+    mechanism: "Ingredient-level traditional use for gut microbial balance, limited human outcome evidence",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "ingredient-level traditional use for gut microbial balance, limited human outcome evidence",
+    cautions: [
+      "contains caprylic acid, oregano oil, black walnut and pau d'arco",
+      "caution in liver disease and with anticoagulants (unverified)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Candida Support",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=candida+support",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-candida-support-90-veg-capsules/462",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-candida-support-90-veg-capsules/462",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "digestive comfort",
+      "traditional support",
+    ],
+  },
+  {
+    slug: "glucosamine-and-chondroitin-with-msm",
+    name: "Glucosamine & Chondroitin with MSM",
+    aliases: [
+      "NOW Foods, Glucosamine & Chondroitin with MSM, 180 capsules",
+      "Glucosamine & Chondroitin with MSM",
+    ],
+    category: "joint/bone",
+    mechanism: "Human osteoarthritis trials show mixed results, with some pain and function benefit for glucosamine sulfate; combination products less consistent",
+    forms: [
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "liquid",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 800.0, high: 1200.0, unit: "mg", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "human osteoarthritis trials show mixed results, with some pain and function benefit for glucosamine sulfate; combination products less consistent",
+    cautions: [
+      "shellfish allergy for glucosamine sourced from shells",
+      "caution with warfarin and with diabetes drugs (unverified interaction)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Glucosamine & Chondroitin with MSM",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=glucosamine+and+chondroitin+with+msm",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-glucosamine-chondroitin-with-msm-180-capsules/581",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-glucosamine-chondroitin-with-msm-180-capsules/581",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "joint repair",
+    ],
+  },
+  {
+    slug: "uc-ii-joint-health-with-undenatured-type-ii-collagen",
+    name: "UC-II Joint Health with Undenatured Type II Collagen",
+    aliases: [
+      "NOW Foods, UC-II Joint Health with Undenatured Type II Collagen, 120 capsules",
+      "UC-II Joint Health with Undenatured Type II Collagen",
+    ],
+    category: "joint/bone",
+    mechanism: "Small human RCTs support 40 mg/day UC-II for joint comfort and flexibility",
+    forms: [
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "bedtime",
+      },
+    ],
+    doseRange: { low: 40.0, high: 40.0, unit: "mg", upperLimit: undefined },
+    timing: "on an empty stomach at bedtime per common label practice (unverified for this product)",
+    evidenceGrade: "B",
+    summary: "small human RCTs support 40 mg/day UC-II for joint comfort and flexibility",
+    cautions: [
+      "chicken cartilage source",
+      "no major drug interaction established",
+    ],
+    interactionRuleIds: [
+      "R018",
+    ],
+    citations: [
+      {
+        label: "PubMed search: UC-II Joint Health with Undenatured Type II Collagen",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=uc+ii+joint+health+with+undenatured+type+ii+collagen",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "joint repair",
+    ],
+  },
+  {
+    slug: "advanced-uc-ii-joint-relief",
+    name: "Advanced UC-II Joint Relief",
+    aliases: [
+      "NOW Foods, Advanced UC-II Joint Relief, 60 capsules",
+      "Advanced UC-II Joint Relief",
+    ],
+    category: "joint/bone",
+    mechanism: "UC-II human data support joint comfort; added ingredients have their own limited evidence",
+    forms: [
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "bedtime",
+      },
+    ],
+    doseRange: { low: 40.0, high: 40.0, unit: "mg", upperLimit: undefined },
+    timing: "bedtime or empty stomach",
+    evidenceGrade: "B",
+    summary: "UC-II human data support joint comfort; added ingredients have their own limited evidence",
+    cautions: [
+      "same as UC-II",
+      "avoid stacking multiple joint formulas",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Advanced UC-II Joint Relief",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=advanced+uc+ii+joint+relief",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-advanced-uc-ii-joint-relief-60-capsules/84735",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-advanced-uc-ii-joint-relief-60-capsules/84735",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "joint repair",
+    ],
+  },
+  {
+    slug: "biocell-collagen-hydrolyzed-type-ii",
+    name: "BioCell Collagen Hydrolyzed Type II",
+    aliases: [
+      "NOW Foods, BioCell Collagen Hydrolyzed Type II, 120 capsules",
+      "BioCell Collagen Hydrolyzed Type II",
+    ],
+    category: "joint/bone",
+    mechanism: "Proprietary hydrolyzed type II collagen has small human trials for joint comfort and skin hydration",
+    forms: [
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1.0, high: 2.0, unit: "capsules", upperLimit: undefined },
+    timing: "with meals",
+    evidenceGrade: "B",
+    summary: "proprietary hydrolyzed type II collagen has small human trials for joint comfort and skin hydration",
+    cautions: [
+      "chicken sternal cartilage source",
+      "no established major interaction",
+    ],
+    interactionRuleIds: [
+      "R018",
+    ],
+    citations: [
+      {
+        label: "PubMed search: BioCell Collagen Hydrolyzed Type II",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=biocell+collagen+hydrolyzed+type+ii",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-biocell-collagen-hydrolyzed-type-ii-120-capsules/85315",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-biocell-collagen-hydrolyzed-type-ii-120-capsules/85315",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "joint repair",
+      "skin elasticity",
     ],
   },
 ];

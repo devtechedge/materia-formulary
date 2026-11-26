@@ -1,5 +1,5 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 1 to 13. Do not hand edit.
+// Entries 1 to 14. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
@@ -16,20 +16,20 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -79,26 +79,26 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "pure powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "effervescent",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
     ],
@@ -146,20 +146,20 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "enteric-coated softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -206,20 +206,20 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental zinc fraction for the picolinate form.",
+        elementalMg: 0.15,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental zinc fraction for the picolinate form.",
+        elementalMg: 0.15,
         timing: "morning_food",
       },
       {
         name: "lozenges",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Elemental zinc fraction for the picolinate form.",
+        elementalMg: 0.15,
         timing: "morning_food",
       },
     ],
@@ -268,20 +268,20 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "liposomal veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "liquid packets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
       {
         name: "non-liposomal capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "empty_stomach",
       },
     ],
@@ -329,20 +329,20 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "oral tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "topical face serum",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "scalp serum",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -390,26 +390,26 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "gummies",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -455,20 +455,20 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "chewables",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -512,8 +512,8 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -558,20 +558,20 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "liquid drops",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -618,14 +618,14 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -673,8 +673,8 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -717,8 +717,8 @@ export const batch01: Monograph[] = [
     forms: [
       {
         name: "liquid drops",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -744,6 +744,54 @@ export const batch01: Monograph[] = [
       },
     ],
     provenance: "https://www.iherb.com/pr/now-foods-liquid-d3-mk-7-natural-mint-1-fl-oz-30-ml/91613",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "nutrient adequacy",
+    ],
+  },
+  {
+    slug: "vitamin-d3-k2-as-mk-7",
+    name: "Vitamin D3 + K2 as MK-7",
+    aliases: [
+      "California Gold Nutrition, Vitamin D3 + K2 as MK-7, 180 veggie capsules",
+      "Vitamin D3 + K2 as MK-7",
+    ],
+    category: "vitamins",
+    mechanism: "D3 strong for deficiency; K2 cardiovascular and bone outcome trials ongoing and mixed",
+    forms: [
+      {
+        name: "veggie capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 5000.0, high: 5000.0, unit: "IU", upperLimit: undefined },
+    timing: "with a fatty meal",
+    evidenceGrade: "C",
+    summary: "D3 strong for deficiency; K2 cardiovascular and bone outcome trials ongoing and mixed",
+    cautions: [
+      "warfarin interaction",
+      "higher D3 dose needs blood-level monitoring",
+    ],
+    interactionRuleIds: [
+      "R012",
+      "R029",
+    ],
+    citations: [
+      {
+        label: "PubMed search: Vitamin D3 + K2 as MK-7",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=vitamin+d3+k2+as+mk+7",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/california-gold-nutrition-vitamin-d3-k2-as-mk-7-180-veggie-capsules/124745",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/california-gold-nutrition-vitamin-d3-k2-as-mk-7-180-veggie-capsules/124745",
     lastReviewed: "2026-11-26",
     reviewer: "DM",
     goals: [

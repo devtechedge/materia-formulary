@@ -1,221 +1,9 @@
 // Generated from supplement-research.md by scripts/generate-data.py.
-// Entries 53 to 65. Do not hand edit.
+// Entries 57 to 70. Do not hand edit.
 
 import type { Monograph } from "@/lib/types";
 
 export const batch05: Monograph[] = [
-  {
-    slug: "coq10-with-hawthorn-berry",
-    name: "CoQ10 with Hawthorn Berry",
-    aliases: [
-      "NOW Foods, CoQ10 with Hawthorn Berry, 100 mg, 90 veg capsules",
-      "CoQ10 with Hawthorn Berry",
-    ],
-    category: "antioxidants",
-    mechanism: "CoQ10 has mixed but plausible human data; hawthorn has some heart-failure trial data but product-level evidence is not established",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 100.0, high: 100.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "CoQ10 has mixed but plausible human data; hawthorn has some heart-failure trial data but product-level evidence is not established",
-    cautions: [
-      "hawthorn can interact with cardiac drugs including digoxin and beta blockers",
-      "do not combine without clinician review",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: CoQ10 with Hawthorn Berry",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=coq10+with+hawthorn+berry",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-coq10-with-hawthorn-berry-100-mg-90-veg-capsules/37834",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-coq10-with-hawthorn-berry-100-mg-90-veg-capsules/37834",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "antioxidant defence",
-      "longevity",
-      "cardiovascular support",
-    ],
-  },
-  {
-    slug: "alpha-lipoic-acid",
-    name: "Alpha Lipoic Acid",
-    aliases: [
-      "NOW Foods, Alpha Lipoic Acid, 100 mg, 120 veg capsules",
-      "Alpha Lipoic Acid",
-    ],
-    category: "antioxidants",
-    mechanism: "Human evidence for diabetic neuropathy symptoms at 600 mg/day; general antioxidant claims are weaker",
-    forms: [
-      {
-        name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "empty_stomach",
-      },
-      {
-        name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "empty_stomach",
-      },
-      {
-        name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "empty_stomach",
-      },
-    ],
-    doseRange: { low: 100.0, high: 600.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals; some take on empty stomach per label",
-    evidenceGrade: "B",
-    summary: "human evidence for diabetic neuropathy symptoms at 600 mg/day; general antioxidant claims are weaker",
-    cautions: [
-      "can lower blood glucose, caution with insulin/oral hypoglycemics",
-      "may reduce thyroid hormone absorption (unverified)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Alpha Lipoic Acid",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=alpha+lipoic+acid",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-alpha-lipoic-acid-100-mg-120-veg-capsules/311",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-alpha-lipoic-acid-100-mg-120-veg-capsules/311",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "antioxidant defence",
-      "longevity",
-      "metabolic health",
-    ],
-  },
-  {
-    slug: "astaxanthin",
-    name: "Astaxanthin",
-    aliases: [
-      "NOW Foods, Astaxanthin, 10 mg, 60 softgels",
-      "Astaxanthin",
-    ],
-    category: "antioxidants",
-    mechanism: "Human trials suggest modest skin and eye benefits and antioxidant effects; larger clinical claims remain unverified",
-    forms: [
-      {
-        name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 4.0, high: 12.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals containing fat",
-    evidenceGrade: "B",
-    summary: "human trials suggest modest skin and eye benefits and antioxidant effects; larger clinical claims remain unverified",
-    cautions: [
-      "no established drug interaction",
-      "can change stool color (unverified)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Astaxanthin",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=astaxanthin",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-astaxanthin-10-mg-60-softgels/38292",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-astaxanthin-10-mg-60-softgels/38292",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "antioxidant defence",
-      "longevity",
-      "skin elasticity",
-    ],
-  },
-  {
-    slug: "lutein-and-zeaxanthin",
-    name: "Lutein & Zeaxanthin",
-    aliases: [
-      "NOW Foods, Lutein & Zeaxanthin, 25 mg + 5 mg, 60 softgels",
-      "Lutein & Zeaxanthin",
-    ],
-    category: "antioxidants",
-    mechanism: "Human trials support increased macular pigment density and some visual-function outcomes",
-    forms: [
-      {
-        name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-      {
-        name: "gummies",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
-        timing: "morning_food",
-      },
-    ],
-    doseRange: { low: 10.0, high: 10.0, unit: "mg", upperLimit: undefined },
-    timing: "with meals",
-    evidenceGrade: "B",
-    summary: "human trials support increased macular pigment density and some visual-function outcomes",
-    cautions: [
-      "no major drug interaction established",
-      "high dose carotenoids can discolor skin (unverified at this dose)",
-    ],
-    interactionRuleIds: [],
-    citations: [
-      {
-        label: "PubMed search: Lutein & Zeaxanthin",
-        url: "https://pubmed.ncbi.nlm.nih.gov/?term=lutein+and+zeaxanthin",
-        kind: "pubmed",
-      },
-      {
-        label: "Source listing",
-        url: "https://www.iherb.com/pr/now-foods-lutein-zeaxanthin-60-softgels/70960",
-        kind: "vendor",
-      },
-    ],
-    provenance: "https://www.iherb.com/pr/now-foods-lutein-zeaxanthin-60-softgels/70960",
-    lastReviewed: "2026-11-26",
-    reviewer: "DM",
-    goals: [
-      "antioxidant defence",
-      "longevity",
-      "cognitive support",
-    ],
-  },
   {
     slug: "lutein",
     name: "Lutein",
@@ -228,8 +16,8 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "softgels",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -273,20 +61,20 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -335,8 +123,8 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -380,8 +168,8 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -427,20 +215,20 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
       {
         name: "liquid extract",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "bedtime",
       },
     ],
@@ -489,20 +277,20 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "evening",
       },
       {
         name: "tablets",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "evening",
       },
       {
         name: "extract",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "evening",
       },
     ],
@@ -546,14 +334,14 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -598,8 +386,8 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -644,14 +432,14 @@ export const batch05: Monograph[] = [
     forms: [
       {
         name: "veg capsules",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
       {
         name: "powder",
-        note: "Form as listed in the source catalog.",
-        elementalMg: 1,
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
         timing: "morning_food",
       },
     ],
@@ -682,6 +470,266 @@ export const batch05: Monograph[] = [
     goals: [
       "stress resilience",
       "cognitive support",
+    ],
+  },
+  {
+    slug: "maca",
+    name: "Maca",
+    aliases: [
+      "NOW Foods, Maca, 500 mg, 100 veg capsules",
+      "Maca",
+    ],
+    category: "adaptogens",
+    mechanism: "Human evidence for sexual function and mood is limited; traditional use is the main basis",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "gelatin capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 500.0, high: 2000.0, unit: "mg", upperLimit: undefined },
+    timing: "morning with food",
+    evidenceGrade: "B",
+    summary: "human evidence for sexual function and mood is limited; traditional use is the main basis",
+    cautions: [
+      "caution with thyroid disease due to glucosinolates (unverified interaction)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Maca",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=maca",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/c/maca",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/c/maca",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "stress resilience",
+    ],
+  },
+  {
+    slug: "reishi-mushroom",
+    name: "Reishi Mushroom",
+    aliases: [
+      "NOW Foods, Reishi Mushroom",
+      "Reishi Mushroom",
+    ],
+    category: "adaptogens",
+    mechanism: "Human evidence is limited and mostly immune-marker or fatigue outcomes; traditional use dominates",
+    forms: [
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "evening",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "evening",
+      },
+      {
+        name: "liquid extract",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "evening",
+      },
+    ],
+    doseRange: { low: 400.0, high: 3000.0, unit: "mg", upperLimit: undefined },
+    timing: "evening or with meals",
+    evidenceGrade: "B",
+    summary: "human evidence is limited and mostly immune-marker or fatigue outcomes; traditional use dominates",
+    cautions: [
+      "caution with anticoagulants and immunosuppressants (unverified interaction magnitude)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Reishi Mushroom",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=reishi+mushroom",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/c/reishi",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/c/reishi",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "stress resilience",
+    ],
+  },
+  {
+    slug: "cordyceps-mushroom",
+    name: "Cordyceps Mushroom",
+    aliases: [
+      "NOW Foods, Cordyceps Mushroom",
+      "Cordyceps Mushroom",
+    ],
+    category: "adaptogens",
+    mechanism: "Small human exercise studies show mixed endurance results; traditional use is primary",
+    forms: [
+      {
+        name: "capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "powder",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1.0, high: 3.0, unit: "g", upperLimit: undefined },
+    timing: "morning or pre-workout",
+    evidenceGrade: "B",
+    summary: "small human exercise studies show mixed endurance results; traditional use is primary",
+    cautions: [
+      "caution with anticoagulants and autoimmune conditions (unverified)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Cordyceps Mushroom",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=cordyceps+mushroom",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/c/mushrooms",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/c/mushrooms",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "stress resilience",
+    ],
+  },
+  {
+    slug: "mem-boost-with-alpha-gpc-lion-s-mane-coffee-fruit-and-phosphatidylserine",
+    name: "MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine",
+    aliases: [
+      "California Gold Nutrition, MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine, 60 veggie capsules",
+      "MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine",
+    ],
+    category: "cognitive",
+    mechanism: "Blend of ingredients with some human data individually, product-level outcome evidence not established",
+    forms: [
+      {
+        name: "veggie capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 1, high: 1, unit: "serving", upperLimit: undefined },
+    timing: "morning with food",
+    evidenceGrade: "B",
+    summary: "blend of ingredients with some human data individually, product-level outcome evidence not established",
+    cautions: [
+      "Alpha-GPC can cause headache and low blood pressure",
+      "caution with cholinergic drugs (unverified interaction)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: MEM Boost with Alpha-GPC, Lion's Mane, Coffee Fruit and Phosphatidylserine",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=mem+boost+with+alpha+gpc+lion+s+mane+coffee+fruit+and+phosphatidylserine",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/california-gold-nutrition-mem-boost-memory-cognitive-support-with-alpha-gpc-lion-s-mane-extract-coffee-fruit-extract-and-phosphatidylserine-60-veggie-capsules/114149",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/california-gold-nutrition-mem-boost-memory-cognitive-support-with-alpha-gpc-lion-s-mane-extract-coffee-fruit-extract-and-phosphatidylserine-60-veggie-capsules/114149",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "cognitive support",
+      "stress resilience",
+    ],
+  },
+  {
+    slug: "ginkgo-biloba-with-eleuthero-root",
+    name: "Ginkgo Biloba with Eleuthero Root",
+    aliases: [
+      "NOW Foods, Ginkgo Biloba with Eleuthero Root, 50 veg capsules",
+      "Ginkgo Biloba with Eleuthero Root",
+    ],
+    category: "cognitive",
+    mechanism: "Standardized ginkgo has human trial data for cognitive and vascular symptoms, but results are mixed",
+    forms: [
+      {
+        name: "veg capsules",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+      {
+        name: "tablets",
+        note: "Compound weight used as stated in the source listing.",
+        elementalMg: 1.0,
+        timing: "morning_food",
+      },
+    ],
+    doseRange: { low: 120.0, high: 240.0, unit: "mg", upperLimit: undefined },
+    timing: "morning or with meals",
+    evidenceGrade: "B",
+    summary: "standardized ginkgo has human trial data for cognitive and vascular symptoms, but results are mixed",
+    cautions: [
+      "significant interaction with warfarin and antiplatelets",
+      "seizure risk with epilepsy drugs (unverified interaction detail)",
+    ],
+    interactionRuleIds: [],
+    citations: [
+      {
+        label: "PubMed search: Ginkgo Biloba with Eleuthero Root",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=ginkgo+biloba+with+eleuthero+root",
+        kind: "pubmed",
+      },
+      {
+        label: "Source listing",
+        url: "https://www.iherb.com/pr/now-foods-ginkgo-biloba-with-eleuthero-root-50-veg-capsules/102327",
+        kind: "vendor",
+      },
+    ],
+    provenance: "https://www.iherb.com/pr/now-foods-ginkgo-biloba-with-eleuthero-root-50-veg-capsules/102327",
+    lastReviewed: "2026-11-26",
+    reviewer: "DM",
+    goals: [
+      "cognitive support",
+      "traditional support",
     ],
   },
 ];

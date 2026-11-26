@@ -162,6 +162,29 @@ def upper_limit(slug: str, high: float, unit: str) -> float | None:
     return None
 
 
+ELEMENTAL_FACTORS = {
+    "zinc-picolinate": (0.15, "Elemental zinc fraction for the picolinate form."),
+    "zinc": (0.50, "Elemental fraction not confirmed on the checked label, treated as indicative."),
+    "magnesium-glycinate": (0.14, "Elemental magnesium fraction for the glycinate chelate."),
+    "magnesium-citrate": (0.16, "Elemental magnesium fraction for citrate."),
+    "magnesium-oxide": (0.60, "Elemental magnesium fraction for oxide."),
+    "calcium-citrate": (0.21, "Elemental calcium fraction for citrate."),
+    "calcium-carbonate": (0.40, "Elemental calcium fraction for carbonate."),
+    "iron": (0.20, "Elemental iron fraction for the bisglycinate chelate."),
+    "copper-glycinate": (0.20, "Elemental copper fraction for the glycinate chelate."),
+}
+
+
+def factor_for(slug: str, form: str) -> tuple[float, str]:
+    if slug.startswith("magnesium-") and form.startswith("oxide"):
+        return ELEMENTAL_FACTORS["magnesium-oxide"]
+    if slug.startswith("calcium-") and "carbonate" in form:
+        return ELEMENTAL_FACTORS["calcium-carbonate"]
+    if slug in ELEMENTAL_FACTORS:
+        return ELEMENTAL_FACTORS[slug]
+    return 1.0, "Compound weight used as stated in the source listing."
+
+
 def ts_string(value: str) -> str:
     return '"' + value.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ") + '"'
 
@@ -190,10 +213,14 @@ def build(index: int, fields: list[str]) -> str:
     low, high, unit, upper = dose_for(dose_raw)
     upper = upper_limit(slug, high, unit)
     slot = slot_for(timing_raw)
-    forms = [
-        {"name": f.strip(), "note": "Form as listed in the source catalog.", "elementalMg": 1, "timing": slot}
-        for f in forms_raw.split(",") if f.strip()
-    ][:4]
+    forms = []
+    for candidate in forms_raw.split(","):
+        if not candidate.strip():
+            continue
+        factor, note = factor_for(slug, candidate.strip())
+        forms.append({"name": candidate.strip(), "note": note, "elementalMg": factor, "timing": slot})
+        if len(forms) == 4:
+            break
     if not forms:
         forms = [{"name": "standard", "note": "Form as listed.", "elementalMg": 1, "timing": slot}]
     cautions = [c.strip() for c in caution_raw.split(";") if c.strip()]
@@ -286,7 +313,7 @@ def main() -> None:
             SLUG_OVERRIDES[index] = f"{base}-{count}"
     OUT.mkdir(parents=True, exist_ok=True)
     for batch_no in range(1, 11):
-        chunk = entries[(batch_no - 1) * 13: batch_no * 13]
+        chunk = entries[(batch_no - 1) * 14: batch_no * 14]
         body = "\n".join(build(index, fields) for index, fields in chunk)
         target = OUT / f"monographs-{batch_no:02d}.ts"
         target.write_text(
