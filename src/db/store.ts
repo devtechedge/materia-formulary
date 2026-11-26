@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { eq, and } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 
-import { DEMO_ACCOUNT } from "@/lib/account";
 import type { Stack } from "@/lib/types";
 import { getDb } from "./client";
 import { stacks } from "./schema";
@@ -43,17 +42,3 @@ export async function saveStack(accountRef: string, stack: Stack): Promise<void>
       set: { name: stack.name, items: stack.items, updatedAt: new Date() },
     });
 }
-
-export async function getStack(accountRef: string, id: string): Promise<Stack | null> {
-  const db = getDb();
-  if (!db) return memory.get(key(accountRef, id)) ?? null;
-  const rows = await db
-    .select()
-    .from(stacks)
-    .where(and(eq(stacks.accountRef, accountRef), eq(stacks.id, id)))
-    .limit(1);
-  const row: any = rows[0];
-  return row ? { id: row.id, name: row.name, items: row.items as Stack["items"] } : null;
-}
-
-export { DEMO_ACCOUNT };
