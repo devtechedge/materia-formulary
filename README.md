@@ -14,7 +14,7 @@ An independent evidence-graded formulary for holistic supplements, with a determ
 
 **https://materia-formulary.vercel.app**
 
-> **Status:** Public demo data from a checked snapshot dated 26 November 2026. The 130 monographs and 30 rules are static; no account or database is required. Nothing is fetched at runtime. The app is educational reference only and does not diagnose or prescribe.
+> **Status:** Public demo data from a checked snapshot dated 26 November 2026. The 134 monographs and 30 rules are static; no account or database is required. Nothing is fetched at runtime. Production runs on Node 22 in region bom1. Web analytics and Speed Insights are off on this Hobby project. The app is educational reference only and does not diagnose or prescribe. Vercel Hobby allows 100 deployments per day; git pushes share that limit.
 
 ---
 
@@ -32,7 +32,7 @@ An independent evidence-graded formulary for holistic supplements, with a determ
 
 ## Features
 
-- Browse 130 real monographs with category filters and an A to D evidence grade on every row.
+- Browse 134 real monographs with category filters and an A to D evidence grade on every row.
 - Compare forms: zinc picolinate versus zinc oxide, liposomal glutathione versus NAC, triglyceride fish oil versus flax oil, and four more pairs.
 - Audit a stack with 30 deterministic rules. Every finding carries severity, evidence grade, citation and a suggested action. The same stack always produces the same output.
 - Sum elemental exposure across a stack and flag stated upper limits.

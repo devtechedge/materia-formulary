@@ -35,6 +35,14 @@ export default function MethodologyPage() {
           and do not vary between runs. Severity, evidence grade, citation and suggested action are
           stored with each rule. A rule firing is a prompt to review, not a clinical conclusion.
         </p>
+        <p>
+          Exposure totals apply an elemental fraction per form for zinc, magnesium, calcium, iron
+          and copper. Each monograph states its fraction. Where the checked label did not declare
+          one, the value is marked indicative rather than verified. Form comparisons are not proof
+          of clinical superiority. Rules for St John&apos;s wort, SAM-e and caffeine stay at category
+          level because this snapshot has no checked product page for them; they are disclosed here
+          rather than hidden behind a missing slug.
+        </p>
 
         <h2>Review process</h2>
         <p>
