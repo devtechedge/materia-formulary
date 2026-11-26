@@ -1,4 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+// The installed Drizzle release ships only .d.cts declarations, which the bundler
+// module resolution cannot read for ESM imports. These narrow shims keep the
+// server-only data path typechecked without weakening application types.
 
 declare module "drizzle-orm" {
   export function eq(column: unknown, value: unknown): unknown;
